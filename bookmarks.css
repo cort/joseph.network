@@ -1,0 +1,218 @@
+@import url(https://fonts.googleapis.com/css?family=Karla:400,700);
+@import url("https://use.typekit.net/jjx7czz.css");
+@charset "UTF-8";
+@font-face {
+    font-family: 'neue';
+    src: url("../font/neue-haas-grotesk-display.ttf");
+}
+@font-face {
+	font-family: 'cygnitomono';
+	src: url("../font/cygnitomono.otf");
+}
+
+.name{
+	display: none;
+}
+
+li {  
+    margin: -5px;
+    padding-top: 4px;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: inherit;
+    margin-left: 0%;
+    margin-bottom: -75px;
+	width: 100%;
+} 
+
+.bookmarks {
+    color: #fffffe;
+	font-family: 'titling-gothic-fb';
+	font-size: 1.2em;
+	text-align: right;
+	padding-left: -20%;
+	margin-top: 1.5%;
+	margin-right: 2%;
+	margin-left: -2%;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	font-size: 95%;
+	
+    -webkit-animation:fadeIn ease-in 1;  
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+}
+
+.bookmarks a:hover {
+	background: -webkit-linear-gradient(-45deg, #4014ff, #0BC0EA);
+	background: linear-gradient(-45deg, #4014ff, #0BC0EA);-webkit-background-clip: text;
+	background-clip: text;
+    -webkit-text-fill-color: transparent;
+	text-fill-color: transparent;
+}
+
+body {
+	letter-spacing: 0.0em;
+	background: #000;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	padding: 0;
+    line-height: 1
+}
+
+a:hover {
+	background: -webkit-linear-gradient(-45deg, #4014ff, #0BC0EA);
+	background: linear-gradient(-45deg, #4014ff, #0BC0EA);-webkit-background-clip: text;
+	background-clip: text;
+        -webkit-text-fill-color: transparent;
+	text-fill-color: transparent;
+}
+
+.words {
+	color: #fffffe;
+	font-weight: 200;
+	font-family: 'neue';
+	letter-spacing: 1.1;
+}
+
+ul {
+    list-style: none
+}
+
+.tags {
+    font-family: "cygnitomono";
+	color: #6b33f1;
+}
+
+a {
+    text-decoration: none
+}
+
+* {
+    font-family: "titling-gothic-fb";
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.3;
+    color: #fffffe;
+}
+
+@-webkit-keyframes slideInFromBottom {
+    0% {
+        -webkit-transform: translateY(8%);
+        transform: translateY(8%);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        -webkit-transform: translateY(8%);
+        transform: translateY(8%);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1
+    }
+}
+
+cities {
+    -webkit-transition: all .2s cubic-bezier(.455, .03, .515, .955);
+    transition: all .2s cubic-bezier(.455, .03, .515, .955);
+    display: grid;
+    text-align: left;
+    grid-template-columns: 100vw;
+
+}
+
+cities ul {
+    -webkit-animation: 1.2s cubic-bezier(.455, .03, .515, .955) 0s 1 slideInFromBottom;
+    animation: 1.2s cubic-bezier(.455, .03, .515, .955) 0s 1 slideInFromBottom;
+    width: 25%;
+    margin-right: -8%;
+    text-align: left;
+    justify-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    -webkit-columns: 1;
+    columns: 1;
+    margin-left: -2%;
+}
+
+cities ul li {
+    font-size: 1.25rem;
+    font-weight: 700;
+    height: 8rem;
+	padding-top: 2%;
+}
+
+cities ul li a,
+cities ul li a:hover {
+    -webkit-transition: all .3s cubic-bezier(.075, .82, .165, 1);
+    transition: all .3s cubic-bezier(.075, .82, .165, 1)
+}
+
+cities ul li span {
+    margin-left: .2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: .9rem
+}
+
+span {
+    font-size: .75rem;
+
+}
+
+@media (max-width:1024px) {
+    cities ul {
+        -webkit-columns: 1;
+        columns: 1;
+        width: 80vw;
+        margin-right: 0
+    }
+}
+
+@media (max-width:768px) {
+    cities ul {
+        -webkit-columns: 1;
+        columns: 1;
+        width: 70%;
+        margin-right: 0;
+        padding: 4rem 0
+    }
+}
+
+@media (max-width:1024px) {
+    cities {
+        grid-template-rows: 100vh
+    }
+}
+
+@media (max-width:768px) {
+    cities {
+        grid-template-rows: auto
+    }
+}
+
+@media screen and (max-width:32.5em) {
+	.name {display:none}
+	margin-left: -10px;
+	padding: 0px;
+	padding-top: 2px;
+	width: 100%;
+}

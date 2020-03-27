@@ -1,0 +1,141 @@
+body {
+    letter-spacing: 0.0em;
+    color: #000;
+    background: #000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: "titling-gothic-fb";
+    color: #fffffe;
+    font-size: 2.5em;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+a.link:hover {
+    font-size: 100%;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23690bff' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 8px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    color: #fffffe;
+}
+
+a.link {
+    color: #6b33f1;
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #fffffe;
+    outline: none;
+    font-size: 80%;
+    line-height: 2;
+}
+
+a.namelink {
+    color: #6b33f1;
+    font-family: 'titling-gothic-fb';
+    font-size: 100%;
+}
+
+.bookmarks {
+    color: #fffffe;
+    font-family: 'titling-gothic-fb';
+    font-size: 1.2em;
+    text-align: right;
+    padding-left: 20%;
+    margin-top: 1.5%;
+    margin-right: 2%;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+.bookmarks a:hover {
+    background: -webkit-linear-gradient(-45deg, #4014ff, #0BC0EA);
+    background: linear-gradient(-45deg, #4014ff, #0BC0EA);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    -webkit-animation: fadeIn ease-in 1;
+    -moz-animation: fadeIn ease-in 1;
+    animation: fadeIn ease-in 1;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.name {
+    position: fixed;
+    z-index: 200;
+    bottom: 35%;
+    left: 0;
+    margin-left: 1.2em;
+    margin-bottom: 2.2em;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+}
+
+.name p {
+    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+    font-size: 1em;
+    line-height: 1.85em;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+
+}
+
+.name p a:hover {
+    background: -webkit-linear-gradient(-45deg, #4014ff, #0BC0EA);
+    background: linear-gradient(-45deg, #4014ff, #0BC0EA);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
