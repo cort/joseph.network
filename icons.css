@@ -169,5 +169,6 @@ ul {
                         font-size: 1.9em;
                         margin-right: 0.5px;
                         margin-left: 0%;
-                        width: 95%;
+                        width: 95%;               
                     }
+                    .name {display: none}
