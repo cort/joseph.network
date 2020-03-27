@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="m086JPXdwvGA-ZMdtOnnI9tufCmCvY-2Stdn5E1Sogw" />
+    <meta name="application-name" content="&nbsp;" />
+
+    <title>Bookmarks</title>
+
+    <link href="css/bookmarks.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="bookmarks"><a href="https://joseph.network">Home</a></div>
+    </div>
+    <cities>
+        <ul>
+
+            <li><a href=" "> </a><span> </span></li>
+
+            <li><a href="https://joseph.network">Joseph Cortez&nbsp; </a>&nbsp;<span class="tags">&mdash; websites</span></li>
+
+            <li><a href="https://www.awaytravel.com/travel-bags/daypack">The Daypack </a>&nbsp;<span class="tags">&mdash; products</span></li>
+
+            <li><a href="https://www.dyson.com/purifiers/dyson-pure-cool-tower-black-nickel.html">Dyson Pure Cool </a>&nbsp;<span class="tags">&mdash; products</span></li>
+
+            <li><a href="https://www.us.allsaints.com/men/">AllSaints </a>&nbsp;<span class="tags">&mdash; fashion</span></li>
+
+            <li><a href="https://www.dyson.com/task-lighting/dyson-csys-task-light-black-black.html">Dyson Task Light </a>&nbsp;<span class="tags">&mdash; products</span></li>
+
+            <li><a href="https://harmony-paris.com/pages/shop-all-men">Harmony Paris </a>&nbsp;<span class="tags">&mdash; fashion</span></li>
+
+            <li><a href="https://www.ssense.com/en-us/men/product/tiger-of-sweden-jeans/ssense-exclusive-black-bax-turtleneck/4346851">black turtleneck </a>&nbsp;<span class="tags">&mdash; fashion</span></li>
+
+        </ul>
+    </cities>
+    <script>
+        $(document).ready(function() {
+            $(".micro").hover(
+                function() {
+                    $("cities").addClass("invert-bg");
+                    $(this).addClass("invert-text");
+                    $("cities ul li, cities ul li a, cities ul li span, cities ul li slash").addClass("invert-text");
+                },
+                function() {
+                    $("cities").removeClass("invert-bg");
+                    $(this).removeClass("invert-text");
+                    $("cities ul li, cities ul li a, cities ul li span, cities ul li slash").removeClass("invert-text");
+                }
+            );
+            $('.micro').on('touchend', function(e) {
+                $("cities").removeClass("invert-bg");
+                $(this).removeClass("invert-text");
+                $("cities ul li, cities ul li a, cities ul li span, cities ul li slash").removeClass("invert-text");
+            });
+        });
+    </script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-104109127-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+
+</html>
