@@ -3,11 +3,11 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'neue';
-    src: url("../font/neue-haas-grotesk-display.ttf");
+    src: url("../neue-haas-grotesk-display.ttf");
 }
 @font-face {
 	font-family: 'cygnitomono';
-	src: url("../font/cygnitomono.otf");
+	src: url("../cygnitomono.otf");
 }
 
 .name{
