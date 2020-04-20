@@ -18,13 +18,14 @@
 }
 
 ul {
-    text-align: center;
+    text-align: left;
     margin-right: 10%;
+    margin-left: 18%;
 }
 
 .icon {
     font-family: custom;
-    font-size: 2.8em;
+    font-size: 4em;
     line-height: 2em;
 }
 
@@ -113,19 +114,19 @@ ul {
 @media screen and (max-width:97em) {
 
     .icon {
-        font-size: 7.5em;
+        font-size: 4em;
     }
 
     @media screen and (max-width:80em) {
 
         .icon {
-            font-size: 6em;
+            font-size: 4em;
         }
 
         @media screen and (max-width:58em) {
 
             .icon {
-                font-size: 4.1em;
+                font-size: 4em;
             }
 
             .iconpos {
