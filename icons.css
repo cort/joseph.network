@@ -167,13 +167,11 @@ ul {
                 @media screen and (max-width:32.5em) {
 
                     p {
-                        font-size: 1.9em;
-                        margin-right: 0%;
+                        font-size: 2em;
                         margin-left: 5%;
                         width: 95%;               
                     }
                      .icon {
-                        margin-left: -10%;
+                        margin-left: -15%;
                     }
                     .name {display: none}
-                    ul {margin-right: 14%}
