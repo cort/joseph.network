@@ -172,5 +172,8 @@ ul {
                         margin-left: 0%;
                         width: 95%;               
                     }
+                     .icon {
+                        margin-left: -10%;
+                    }
                     .name {display: none}
                     ul {margin-right: 14%}
