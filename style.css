@@ -1,26 +1,40 @@
 body {
     letter-spacing: 0.0em;
     color: #000;
-    background: #000;
+    background: #fffffe;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
-p {
+p, p2, p3, p4 {
     font-family: "titling-gothic-fb";
-    color: #fffffe;
+    color: #000000;
     font-size: 2.5em;
     text-align: left;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 7%;
+}
+
+ul {
+    margin-bottom: -15px;
+}
+
+.about {
+    font-family: "titling-gothic-fb";
+    color: #000000;
+    font-size: 0.8em;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -30px;
 }
 
 .linktext {
     font-family: 'titling-gothic-fb';
     font-weight: 100;
-    font-size: 75%
+    font-size: 100%
 }
 
 a.link:hover {
@@ -30,47 +44,20 @@ a.link:hover {
     background-size: auto 8px;
     background-repeat: repeat-x;
     text-decoration: none;
-    color: #fffffe;
+    color: #000000;
 }
 
-a.link, a.linkbig {
-    color: #6b33f1;
+a.link {
+    color: #000000;
     font-size: 100%;
 }
 
 a {
     text-decoration: none;
-    color: #fffffe;
+    color: #000000;
     outline: none;
     font-size: 80%;
     line-height: 1;
-}
-
-a.namelink {
-    color: #6b33f1;
-    font-family: 'titling-gothic-fb';
-    font-size: 100%;
-}
-
-.bookmarks {
-    color: #fffffe;
-    font-family: 'titling-gothic-fb';
-    font-size: 1.2em;
-    text-align: right;
-    padding-left: 20%;
-    margin-top: 0%;
-    margin-right: 2%;
-    text-transform: uppercase;
-    letter-spacing: 0.15em;
-}
-
-.bookmarks a:hover {
-    background: -webkit-linear-gradient(-45deg, #4014ff, #0BC0EA);
-    background: linear-gradient(-45deg, #4014ff, #0BC0EA);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
 }
 
 @-webkit-keyframes fadeIn {
@@ -110,38 +97,4 @@ body {
     -webkit-animation-duration: 1s;
     -moz-animation-duration: 1s;
     animation-duration: 1s;
-}
-
-.name {
-    position: fixed;
-    z-index: 200;
-    bottom: 35%;
-    left: 0;
-    margin-left: 1.2em;
-    margin-bottom: 2.2em;
-    opacity: 1;
-    transition: opacity .3s ease-in-out;
-    -moz-transition: opacity .3s ease-in-out;
-    -webkit-transition: opacity .3s ease-in-out;
-    -o-transition: opacity .3s ease-in-out;
-}
-
-.name p {
-    writing-mode: vertical-lr;
-    -webkit-writing-mode: vertical-lr;
-    -ms-writing-mode: vertical-lr;
-    font-size: 1em;
-    line-height: 1.85em;
-    text-transform: uppercase;
-    letter-spacing: 0.15em;
-
-}
-
-.name p a:hover {
-    background: -webkit-linear-gradient(-45deg, #4014ff, #0BC0EA);
-    background: linear-gradient(-45deg, #4014ff, #0BC0EA);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
 }
