@@ -13,70 +13,43 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
 
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="icons.css" />
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>"https://rawgit.com/ckrack/scrollsnap-polyfill/develop/dist/scrollsnap-polyfill.bundled.js"</script>
 
 </head>
-<body>
 
-            <p><a class="link">Joseph Cortez</a><br><br><span class="about">I'm a student and aspiring technical product designer currently based in San Antonio, Texas, USA. <br><br></span></p><br><br>
-    <p3>
+<div class="support-scrollsnap"></div>
+
+<div class="scroll-container">
+<div class="scroll-area panel1">
+ 
+<p>I'm <a class="plink" href="https://joseph.network">Joseph Cortez</a>, student and aspiring technical product designer, currently based in San Antonio, Texas, USA.</p></div>
+
+<div class="downArrow bounce">
+  <img width="40" height="40" alt="" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSLQodC70L7QuV8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0yNC4yODUsMTEuMjg0TDE2LDE5LjU3MWwtOC4yODUtOC4yODhjLTAuMzk1LTAuMzk1LTEuMDM0LTAuMzk1LTEuNDI5LDAgIGMtMC4zOTQsMC4zOTUtMC4zOTQsMS4wMzUsMCwxLjQzbDguOTk5LDkuMDAybDAsMGwwLDBjMC4zOTQsMC4zOTUsMS4wMzQsMC4zOTUsMS40MjgsMGw4Ljk5OS05LjAwMiAgYzAuMzk0LTAuMzk1LDAuMzk0LTEuMDM2LDAtMS40MzFDMjUuMzE5LDEwLjg4OSwyNC42NzksMTAuODg5LDI0LjI4NSwxMS4yODR6IiBmaWxsPSIjMTIxMzEzIiBpZD0iRXhwYW5kX01vcmUiLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4=" />
+</div>      
+    
+<div class="scroll-area panel2">        
+    
         <ul>
-
             <li class="icon icon1" data-aos="fade-up"><a href="https://twitter.com/jcort">t <span class="linktext">@jcort</span></a>
             </li>
             <li class="icon icon2" data-aos="fade-up"><a href="https://github.com/cort">g <span class="linktext">@cort</span></a>
             </li>
             <li class="icon icon3" data-aos="fade-up"><a href="https://linkedin.com/in/cort">i <span class="linktext">@cort</span></a>
-			</li>
-            <li class="icon icon4" data-aos="fade-up"><a href="mailto:either@gmail.com"><span class="linktext">either@gmail.com</span></a>
-			</li>
-
+            </li>
         </ul>
-                
-                </span> </p3></body>
-
-    <script>
-        (function() {
-            [].slice.call(document.querySelectorAll('.menu')).forEach(function(menu) {
-                var menuItems = menu.querySelectorAll('.menu__link'),
-                    setCurrent = function(ev) {
-                        ev.preventDefault();
-
-                        var item = ev.target.parentNode;
-
-                        if (classie.has(item, 'menu__item--current')) {
-                            return false;
-                        }
-
-                        classie.remove(menu.querySelector('.menu__item--current'), 'menu__item--current');
-
-                        classie.add(item, 'menu__item--current');
-                    };
-
-                [].slice.call(menuItems).forEach(function(el) {
-                    el.addEventListener('click', setCurrent);
-                });
-            });
-
-            [].slice.call(document.querySelectorAll('.link-copy')).forEach(function(link) {
-                link.setAttribute('data-clipboard-text', location.protocol + '//' + location.host + location
-                    .pathname + '#' + link.parentNode.id);
-                new Clipboard(link);
-                link.addEventListener('click', function() {
-                    classie.add(link, 'link-copy--animate');
-                    setTimeout(function() {
-                        classie.remove(link, 'link-copy--animate');
-                    }, 300);
-                });
-            });
-        })(window);
-    </script>
-
-    <script>
-        AOS.init({
-            duration: 800,
-        })
-    </script>
-</html>
+    
+</div>
+    
+<div class="scroll-area panel3">
+      
+        <ul>
+            <li class="text" data-aos="fade-up">Check out my <a class="plink" href="https://joseph.network/bookmarks">bookmarks</a> or reach out:
+            </li> 
+            <li class="icon4" data-aos="fade-up"><a href="mailto:either@gmail.com"><br><span class="emaillinktext">either@gmail.com</span></a>
+            </li>   
+        </ul>
+    
+</div>
+</div>
