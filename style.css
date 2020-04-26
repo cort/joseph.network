@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: "custom";
-    src: url("../font/custom.ttf");
+    src: url("../custom.ttf");
 }
 
 html {
@@ -348,6 +348,7 @@ body {
     padding-left: 42.5%;
     margin-top: -30%;
     padding-bottom: 200px; 
+	    p { font-size: 0.8em; }
 }
 }
 
