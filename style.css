@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: "custom";
-    src: url("../custom.ttf");
+    src: url("../font/custom.ttf");
 }
 
 html {
@@ -84,7 +84,6 @@ body {
 p {
     width: 70%;
     padding-left: 50px;
-    padding-right: 50px;
     padding-bottom: 100px;
     font-family: "titling-gothic-fb";
     height: 300px;
@@ -336,6 +335,12 @@ body {
     transform: translateY(-15px);
   }
 }
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    p, .downArrow {
+        margin-left: 5%;
+    }
+ }
 
 @media screen and (max-width:97em) {
     .downArrow {
