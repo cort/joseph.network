@@ -327,7 +327,7 @@ body {
 @media screen and (max-width:97em) {
     .downArrow {
     bottom: 50%;
-    padding-left: 48%;
+    padding-left: 45%;
     margin-top: -30%;
     padding-bottom: 200px; 
 }
