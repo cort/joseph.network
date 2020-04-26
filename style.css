@@ -7,7 +7,7 @@
 }
 
 .panel1, .downArrow, .panel2, panel3 {
-    padding-bottom: 200px;
+    margin-bottom: -50px;
 }
 
 .scroll-container,
