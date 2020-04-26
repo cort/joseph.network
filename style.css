@@ -6,10 +6,18 @@
     src: url("../custom.ttf");
 }
 
+html {
+  position: fixed;
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
-    position: sticky;
-    overflow-x: hidden;
-    max-width: 100%;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 .scroll-container {
