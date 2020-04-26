@@ -347,8 +347,9 @@ body {
     bottom: 50%;
     padding-left: 42.5%;
     margin-top: -30%;
-    padding-bottom: 200px; 
-	    p { font-size: 0.8em; }
+	    padding-bottom: 200px;}
+	p { margin-left: -5%;}
+	
 }
 }
 
