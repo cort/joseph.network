@@ -2,7 +2,7 @@
 @import url("https://use.typekit.net/jjx7czz.css");
 
 @font-face {
-    font-family: custom;
+    font-family: "custom";
     src: url("../custom.ttf");
 }
 .scroll-container,
