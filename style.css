@@ -98,7 +98,11 @@ ul {
     list-style: none;
 }
 
-.linktext, .emaillinktext {
+.linktext {
+    font-family: 'titling-gothic-fb';
+}
+
+.emaillinktext {
     font-family: 'titling-gothic-fb';
 }
 
@@ -107,19 +111,10 @@ ul {
     color: #6b33f1;
 }
 
-.plink:hover, .emaillinktext {
-    font-size: 100%;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23690bff' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
-    background-position: 0 100%;
-    background-size: auto 8px;
-    background-repeat: repeat-x;
-    text-decoration: none;
-    color: #000000;
-}
-
 .icon {
     font-family: "custom";
     line-height: 1.45em;
+    font-size: 105%;
 }
 
 .icon1 {
@@ -135,7 +130,7 @@ ul {
 }
 
 .icon4 { 
-    background: #000000;
+    background: linear-gradient(-45deg, #eeeeee, #333333);
 }
 
 .icon1, .linktext:hover {
@@ -174,6 +169,10 @@ ul {
 .icon4 {
 
     -webkit-text-stroke-color: transparent;
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 4s ease infinite;
+    -moz-animation: Gradient 4s ease infinite;
+    animation: Gradient 4s ease infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
