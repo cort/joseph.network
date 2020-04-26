@@ -348,9 +348,9 @@ body {
     padding-left: 42.5%;
     margin-top: -30%;
 	    padding-bottom: 200px;}
-	p { margin-left: -15%;}
-	
-}
+	p { margin-left: -15%;
+	    font-size: 0.8em;
+	}
 }
 
 @media screen and (max-width:32.5em) {
