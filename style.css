@@ -6,6 +6,10 @@
     src: url("../custom.ttf");
 }
 
+.panel1, .downArrow, .panel2, panel3 {
+    padding-bottom: 100px;
+}
+
 .scroll-container,
 .scroll-area {
   max-width: 100vw;
