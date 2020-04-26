@@ -348,10 +348,3 @@ body {
 
 @media screen and (max-width:32.5em) {
 }
-
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) {
-    max-width: 375px;
-}
