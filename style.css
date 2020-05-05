@@ -398,6 +398,7 @@ body {
     
     ul {
         margin-left: -25%;
+        margin-top: -40%;
     }
      .downArrow {
     bottom: 50%;
@@ -406,6 +407,6 @@ body {
     margin-left: -3.5%;
 }
     .linktext {
-        display: none;
+        color: #fff;
     }
 }
