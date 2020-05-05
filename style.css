@@ -1,9 +1,13 @@
 @charset "UTF-8";
 @import url("https://use.typekit.net/jjx7czz.css");
-
 @font-face {
     font-family: "custom";
     src: url("../custom.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -18,6 +22,11 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
+    
+}
+
+.text {
+    color: #fff;
 }
 
 .scroll-container {
@@ -42,48 +51,51 @@ body {
 
 .scroll-container,
 .scroll-area {
-  margin: 50 auto;
+  margin: auto;
 }
 
 .scroll-area {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: black;
+  color: white;
 }
 
 .scroll-area:nth-of-type(1) {
-  background: white;
-  margin: -10px;
+  background: #000;
 }
 
 .scroll-area:nth-of-type(2) {
-  background: white;
+  background: #000;
 }
 
 .scroll-area:nth-of-type(3) {
-  background: white;
+  background: #000;
+}
+
+.panel3 {
+  background: #000;
 }
 
 .scroll-container,
 .scroll-area {
     overflow-y: scroll;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none; 
+    -ms-overflow-style: none;  
 }
-.scroll-container::-webkit-scrollbar { /* WebKit */
+.scroll-container::-webkit-scrollbar { 
     width: 0;
     height: 0;
 }
 
-.scroll-area::-webkit-scrollbar { /* WebKit */
+.scroll-area::-webkit-scrollbar { 
     width: 0;
     height: 0;
 }
 
 p {
-    width: 70%;
-    padding-left: 50px;
+    width: 30%;
+    padding-top: 100px;
     padding-bottom: 100px;
     font-family: "titling-gothic-fb";
     height: 300px;
@@ -91,6 +103,7 @@ p {
 
 .panel1 {
     height: 100%; 
+    padding-bottom: 200px;
 }
 
 .panel3 {
@@ -98,17 +111,16 @@ p {
     line-height: 1.1;
 }
 
-.text {
-    color: black;
-}
-
 ul {
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 65px;
     font-family: "titling-gothic-fb";
-    color: #fffffe;
     list-style: none;
+}
+
+li, p {
+    line-height: 1.65em;
 }
 
 .linktext {
@@ -124,9 +136,22 @@ ul {
     color: #6b33f1;
 }
 
+.plink:hover {
+    font-size: 100%;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23690bff' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 8px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
 .icon {
     font-family: "custom";
-    line-height: 1.45em;
     font-size: 105%;
 }
 
@@ -144,6 +169,7 @@ ul {
 
 .icon4 { 
     background: linear-gradient(-45deg, #eeeeee, #333333);
+    text-decoration: none;
 }
 
 .icon1, .linktext:hover {
@@ -191,7 +217,7 @@ ul {
 }
 
 .linktext {
-    -webkit-text-fill-color: black;
+    -webkit-text-fill-color: #fff;
 }
 
 @-webkit-keyframes fadeIn {
@@ -338,22 +364,43 @@ body {
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     p, .downArrow {
-        margin-left: 5%;
+        margin-left: 0%;
     }
  }
 
 @media screen and (max-width:97em) {
     .downArrow {
     bottom: 50%;
-    padding-left: 42.5%;
+    width: 0%;
     margin-top: -30%;
-	    padding-bottom: 200px;}
-	p { margin-left: -15%;
-	    font-size: 0.85em;
-	}
-	ul { margin-left: -5%;
-	    font-size: 0.9em;
 }
+	ul, p { 
+        width: 50%;
+	    font-size: 0.8em;
+        padding-right: 0%;
+}
+    
+    ul {
+        padding-left: 20%;
+    }
 
 @media screen and (max-width:32.5em) {
+    p, ul {
+        width: 70%;
+        font-size: 0.75em;
+    }
+    
+    p {
+        margin-left: 0%;
+    }
+    
+    ul {
+        margin-left: 0%;
+    }
+     .downArrow {
+    bottom: 50%;
+    width: 0%;
+    margin-top: -60%;
+}
+    
 }
