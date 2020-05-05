@@ -81,6 +81,7 @@ body {
 .scroll-area {
     overflow-y: scroll;
     scrollbar-width: none; 
+    scrollbar-color: #000;
     -ms-overflow-style: none;  
 }
 .scroll-container::-webkit-scrollbar { 
