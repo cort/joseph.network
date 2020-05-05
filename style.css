@@ -2,7 +2,7 @@
 @import url("https://use.typekit.net/jjx7czz.css");
 @font-face {
     font-family: "custom";
-    src: url("../custom.ttf");
+    src: url("../font/custom.ttf");
 }
 
 * {
@@ -386,6 +386,11 @@ body {
     }
 
 @media screen and (max-width:32.5em) {
+   
+    .panel1 {
+        padding-bottom: 400px;
+    }
+    
     p, ul {
         width: 70%;
         font-size: 0.85em;
@@ -401,12 +406,14 @@ body {
         margin-top: -40%;
     }
      .downArrow {
-    bottom: 50%;
+    bottom: 100%;
     width: 0%;
-    margin-top: -80%;
+    margin-top: -110%;
     margin-left: -3.5%;
 }
+    
     .text {
         display: none;
     }
+
 }
