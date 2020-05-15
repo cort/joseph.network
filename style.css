@@ -121,7 +121,7 @@ ul {
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 65px;
-    font-family: "titling-gothic-fb";
+    font-family: "degular";
     list-style: none;
 }
 
@@ -130,11 +130,11 @@ li, p {
 }
 
 .linktext {
-    font-family: 'titling-gothic-fb';
+    font-family: 'degular';
 }
 
 .emaillinktext {
-    font-family: 'titling-gothic-fb';
+    font-family: 'degular';
 }
 
 .plink {
