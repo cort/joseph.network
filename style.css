@@ -8,7 +8,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-size: 120%;
 }
 
 html {
@@ -124,18 +123,22 @@ ul {
     padding-bottom: 65px;
     font-family: "degular";
     list-style: none;
+    font-size: 110%;
 }
 
 li, p {
     line-height: 1.65em;
+    font-size: 110%;
 }
 
 .linktext {
     font-family: 'degular';
+    font-size: 110%;
 }
 
 .emaillinktext {
     font-family: 'degular';
+    font-size: 110%;
 }
 
 .plink {
@@ -159,7 +162,7 @@ a {
 
 .icon {
     font-family: "custom";
-    font-size: 105%;
+    font-size: 100%;
 }
 
 .icon1 {
