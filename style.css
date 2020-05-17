@@ -19,7 +19,7 @@ html {
   position: fixed;
   height: 100%;
   overflow: hidden;
-  padding-top: 15%;
+  padding-top: 13%;
   width: 100vw;
   height: 120vh;
   overflow-y: scroll;
@@ -181,4 +181,7 @@ body {
 }
 
 @media screen and (max-width:32.5em) {
+     html {
+        padding-top: 40%;
+    }
 }
