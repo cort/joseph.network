@@ -33,9 +33,12 @@ html {
     display: none;
 }
 
+.click-anywhere {
+    color: #6b33f1;
+}
+
 .plink {
     text-decoration: none;
-    color: #6b33f1;
 }
 
 .plink:hover {
@@ -181,7 +184,7 @@ body {
 }
 
 @media screen and (max-width:32.5em) {
-     html {
+    html {
         padding-top: 40%;
     }
 }
