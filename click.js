@@ -1,6 +1,6 @@
 const bodyTag = document.querySelector("body");
 let number = 0;
-const stickers = ["1.svg", "2.svg", "3.svg", "4.svg", "5.svg", "6.svg", "7.svg"],
+const stickers = ["1.svg", "2.svg", "3.svg", "4.svg", "5.svg", "6.svg"],
     stickerTag = document.querySelector("div.stickers"),
     addSticker = function (e, t) {
         const a = (Math.floor(45 * Math.random()) + 1) * (Math.random() < .5 ? -1 : 1),
