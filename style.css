@@ -34,6 +34,11 @@ html {
     display: none;
 }
 
+::selection {
+    color: #fff;
+    background-color: #6b33f1;
+}
+
 .click-anywhere {
     color: #6b33f1;
 }
