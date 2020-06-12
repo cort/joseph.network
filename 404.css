@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    padding-top: 25%;
     margin-left:auto;
     margin-right: auto;
     color: #fff;
@@ -48,7 +47,8 @@ h1 {
     background: linear-gradient(-180deg, #fff, #6be);
     font-size: 4.5em;
     font-family: "degular";
-    font-weight: 900;
+    font-weight: 900;    
+    padding-top: 25%;
 }
 
 h1 {
