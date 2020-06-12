@@ -27,7 +27,7 @@ html {
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
   background-color: #0a0a0a;
-  font-size: 1.8em;   
+  font-size: 1em;   
 }
 
 ::-webkit-scrollbar {
@@ -45,7 +45,7 @@ a:hover {
 
 h1 {
     background: linear-gradient(-180deg, #fff, #6be);
-    font-size: 5em;
+    font-size: 2em;
     font-family: "degular";
     font-weight: 900;
 }
