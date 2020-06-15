@@ -10,7 +10,7 @@
     color: #fff;
     font-family: degular;
     cursor: help;
-    position: absolute;
+    top: 50%;
 }
 
 body {
