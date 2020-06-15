@@ -13,6 +13,10 @@
     top: -10%;
 }
 
+::selection {
+  background-color: #6b33f1;
+}
+
 body {
     display: inline-block;
 }
