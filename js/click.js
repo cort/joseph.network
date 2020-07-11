@@ -12,11 +12,9 @@ const stickers = ["img/1.svg", "img/2.svg", "img/3.svg", "img/4.svg", "img/5.svg
 stickerTag.addEventListener("click", function (e) {
     e.preventDefault(), menuOpen || addSticker(e.pageX, e.pageY)
 });
-
 menuToggleTag.addEventListener("click", function () {
     menuTag.classList.toggle("open"), burgerTag.classList.toggle("active"), bodyTag.classList.toggle("hidden"), menuTag.classList.contains("open") ? (menuOpen = !0, console.log("true"), footerTag.classList.add("blurred")) : (menuOpen = !1, console.log("false"), footerTag.classList.remove("blurred"));
     const e = document.querySelectorAll("div.stickers img"),
         t = document.querySelectorAll("p");
-    e.forEach(e => {
-        
+    e.forEach(e => {     
 });
