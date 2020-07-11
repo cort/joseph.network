@@ -191,14 +191,5 @@ body {
         background-image: none;
     }
 
-    div.stickers,
-    .description {
-        display: none;
-    }
-
-    .name {
-        font-size: 1.2em;
-        font-family: degular;
-        color: #fefefe;
-    }
+    
 }
