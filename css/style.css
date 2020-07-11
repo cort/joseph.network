@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://use.typekit.net/jjx7czz.css");
+
 @font-face {
     font-family: vcr;
     src: url("/fonts/vcr.ttf");
@@ -8,7 +9,7 @@
 * {
     margin: 0;
     padding: 0;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
     color: #fefefe;
     cursor: crosshair;
@@ -24,36 +25,41 @@ body {
     text-align: left;
 }
 
-p {
-}
+p {}
 
-p2 { 
+p2 {
     font-family: vcr;
     font-size: 0.6em;
 }
 
-img.arrow1, img.arrow2, img.arrow3, img.arrow4, img.arrow5, img.arrow6, img.arrow7 {
+img.arrow1,
+img.arrow2,
+img.arrow3,
+img.arrow4,
+img.arrow5,
+img.arrow6,
+img.arrow7 {
     height: 6%;
     width: 6%;
 }
 
 html {
-  position: fixed;
-  height: 100%;
-  overflow: hidden;
-  width: 100vw;
-  height: 120vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
-  background: none;
-  font-size: 1.8em; 
-  background: #0a0a0a;
+    position: fixed;
+    height: 100%;
+    overflow: hidden;
+    width: 100vw;
+    height: 120vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    background: none;
+    font-size: 1.8em;
+    background: #0a0a0a;
     padding-top: 190px;
-  background-image: url(/img/bg.svg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; 
+    background-image: url(/img/bg.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 ::-webkit-scrollbar {
@@ -99,7 +105,8 @@ div.stickers img {
     z-index: -1;
 }
 
-p, a {
+p,
+a {
     text-decoration: none;
     font-family: degular;
 }
@@ -120,7 +127,7 @@ p, a {
     color: #0E76A8;
 }
 
-.icon5:hover { 
+.icon5:hover {
     color: #5572fa;
 }
 
@@ -162,7 +169,7 @@ icon {
     }
 }
 
-body {    
+body {
     -webkit-animation: fadeIn ease-in 1;
     -moz-animation: fadeIn ease-in 1;
     animation: fadeIn ease-in 1;
@@ -171,20 +178,21 @@ body {
     animation-duration: 1s;
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
-}
+@media screen and (min-width: 1025px) and (max-width: 1280px) {}
 
-@media screen and (max-width:97em) {
-}
+@media screen and (max-width:97em) {}
 
 @media screen and (max-width:32.5em) {
     html {
         padding-top: 40%;
         background-image: none;
     }
-    div.stickers, .description {
+
+    div.stickers,
+    .description {
         display: none;
     }
+
     .name {
         font-size: 1.2em;
         font-family: degular;
