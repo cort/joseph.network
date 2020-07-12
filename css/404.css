@@ -5,17 +5,16 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
     color: #fff;
     font-family: degular;
     cursor: help;
-    top: -10%;
     zoom: 1.2;
 }
 
 ::selection {
-  background-color: #6b33f1;
+  background-color: none;
 }
 
 body {
@@ -26,11 +25,9 @@ html {
   position: fixed;
   height: 100%;
   overflow: hidden;
-  padding-top: 15%;
+  top: 25%;
   width: 100vw;
-  height: 120vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  height: 100vh;
   -webkit-overflow-scrolling: touch;
   background-color: #0a0a0a;
   font-size: 1em;   
@@ -56,16 +53,6 @@ h1 {
     padding-top: 50%;
 }
 
-h1 {
-
-    -webkit-text-stroke-color: transparent;
-    background-size: 100% 100%;
-    -webkit-animation: Gradient 4s ease infinite;
-    -moz-animation: Gradient 4s ease infinite;
-    animation: Gradient 4s ease infinite;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 @-webkit-keyframes fadeIn {
     from {
