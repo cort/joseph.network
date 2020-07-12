@@ -182,7 +182,6 @@ body {
 
 @media screen and (max-width:32.5em) {
     html {
-        padding-top: 42%;
         background-image: none;
     }
 
