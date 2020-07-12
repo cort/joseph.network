@@ -59,10 +59,6 @@ html {
     font-size: 1.8em;
     background: #0a0a0a;
     padding-top: 190px;
-    background-image: url(/img/bg.svg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 ::-webkit-scrollbar {
