@@ -11,14 +11,13 @@
     padding: 0;
     margin-left: auto;
     margin-right: auto;
-    color: #fefefe;
+    color: #0a0a0a;
     cursor: crosshair;
 }
 
 
 body {
     width: 275px;
-    margin-top: -40px;
 }
 
 .div {
@@ -57,8 +56,8 @@ html {
     -webkit-overflow-scrolling: touch;
     background: none;
     font-size: 1.8em;
-    background: #0a0a0a;
-    padding-top: 190px;
+    background: #fefefe;
+   top: 25%;
 }
 
 ::-webkit-scrollbar {
@@ -81,7 +80,7 @@ html {
     background-size: auto 8px;
     background-repeat: repeat-x;
     text-decoration: none;
-    color: #fefefe;
+    color: #0a0a0a;
 }
 
 div.stickers {
@@ -135,7 +134,7 @@ a {
 }
 
 icon {
-    color: #fefefe;
+    color: #0a0a0a;
 }
 
 @-webkit-keyframes fadeIn {
@@ -183,7 +182,18 @@ body {
 
 @media screen and (max-width:32.5em) {
     html {
-        padding-top: 33%;
+        padding-top: 42%;
         background-image: none;
-    }   
+    }
+
+    div.stickers,
+    .description {
+        display: none;
+    }
+
+    .name {
+        font-size: 1.2em;
+        font-family: degular;
+        color: #0a0a0a;
+    }
 }
