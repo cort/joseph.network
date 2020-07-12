@@ -7,14 +7,9 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    color: #fff;
+    color: #0a0a0a;
     font-family: degular;
     cursor: help;
-    zoom: 1.2;
-}
-
-::selection {
-  background-color: none;
 }
 
 body {
@@ -25,12 +20,14 @@ html {
   position: fixed;
   height: 100%;
   overflow: hidden;
-  top: 25%;
+  padding-top: 15%;
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
-  background-color: #0a0a0a;
-  font-size: 1em;   
+  background-color: #fefefe;
+  font-size: 1.8em;   
 }
 
 ::-webkit-scrollbar {
@@ -39,20 +36,19 @@ html {
 
 a {
     text-decoration: none;
-    color: aqua;
+    color: #0a0a0a;
 }
 
 a:hover {
-    color: aquamarine;
+    color: #6b33f1;
 }
 
 h1 {
-    font-size: 4.5em;
-    font-family: "degular";
-    font-weight: 900;    
-    padding-top: 50%;
+    color: #6b33f1;
+    font-size: 5em;
+    font-family: "mono45-headline";
+    font-weight: 900;
 }
-
 
 @-webkit-keyframes fadeIn {
     from {
@@ -81,5 +77,18 @@ h1 {
 
     to {
         opacity: 1;
+    }
+}
+
+@media screen and (max-width:500px) {
+    h1 {
+        margin-top: 40%;
+    }
+    * {
+        zoom: 0.95;
+        width: 85%;
+    }
+    p {
+        margin-top: -10%;
     }
 }
