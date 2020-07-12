@@ -1,140 +1,53 @@
 @charset "UTF-8";
 @import url("https://use.typekit.net/jjx7czz.css");
 
-@font-face {
-    font-family: vcr;
-    src: url("/fonts/vcr.ttf");
-}
-
 * {
     margin: 0;
     padding: 0;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     color: #0a0a0a;
-    cursor: crosshair;
+    font-family: degular;
+    cursor: help;
 }
-
 
 body {
-    width: 275px;
-}
-
-.div {
-    width: 275px;
-    text-align: left;
-}
-
-.name {
-    color: #8a90c7;
-}
-
-p2 {
-    font-family: vcr;
-    font-size: 0.6em;
-}
-
-img.arrow1,
-img.arrow2,
-img.arrow3,
-img.arrow4,
-img.arrow5,
-img.arrow6,
-img.arrow7 {
-    height: 6%;
-    width: 6%;
+    display: inline-block;
 }
 
 html {
-    position: fixed;
-    height: 100%;
-    overflow: hidden;
-    width: 100vw;
-    height: 120vh;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
-    background: none;
-    font-size: 1.8em;
-    background: #fefefe;
-   top: 25%;
+  position: fixed;
+  height: 100%;
+  overflow: hidden;
+  padding-top: 15%;
+  width: 100vw;
+  height: 120vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  background-color: #fefefe;
+  font-size: 1.8em;   
 }
 
 ::-webkit-scrollbar {
     display: none;
 }
 
-::selection {
-    color: none;
-    background-color: none;
-}
-
-.namelink {
-    text-decoration: none;
-}
-
-.namelink:hover {
-    font-size: 100%;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23690bff' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
-    background-position: 0 100%;
-    background-size: auto 8px;
-    background-repeat: repeat-x;
-    text-decoration: none;
-    color: #0a0a0a;
-}
-
-div.stickers {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-}
-
-div.stickers img {
-    position: absolute;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    will-change: transform;
-    width: auto;
-    z-index: -1;
-}
-
-p,
 a {
     text-decoration: none;
-    font-family: degular;
+    color: #6b33f1;
 }
 
-.icon1:hover {
-    color: #00ACEE;
-}
-
-.icon2:hover {
-    color: #551DEF;
-}
-
-.icon3:hover {
-    color: #979bbe;
-}
-
-.icon4:hover {
-    color: #0E76A8;
-}
-
-.icon5:hover {
-    color: #5572fa;
-}
-
-.icon6:hover {
-    color: #505264;
-}
-
-icon {
+a:hover {
     color: #0a0a0a;
+}
+
+h1 {
+    color: #6b33f1;
+    font-size: 5em;
+    font-family: "mono45-headline";
+    font-weight: 900;
 }
 
 @-webkit-keyframes fadeIn {
@@ -167,32 +80,15 @@ icon {
     }
 }
 
-body {
-    -webkit-animation: fadeIn ease-in 1;
-    -moz-animation: fadeIn ease-in 1;
-    animation: fadeIn ease-in 1;
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    animation-duration: 1s;
-}
-
-@media screen and (min-width: 1025px) and (max-width: 1280px) {}
-
-@media screen and (max-width:97em) {}
-
-@media screen and (max-width:32.5em) {
-    html {
-        background-image: none;
+@media screen and (max-width:500px) {
+    h1 {
+        margin-top: 40%;
     }
-
-    div.stickers,
-    .description {
-        display: none;
+    * {
+        zoom: 0.95;
+        width: 85%;
     }
-
-    .name {
-        font-size: 1.2em;
-        font-family: degular;
-        color: #0a0a0a;
+    p {
+        margin-top: -10%;
     }
 }
