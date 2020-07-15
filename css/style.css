@@ -50,14 +50,14 @@ html {
     height: 100%;
     overflow: hidden;
     width: 100vw;
-    height: 120vh;
+    height: 100vh;
     overflow-y: scroll;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     background: none;
     font-size: 1.8em;
     background: #fefefe;
-    top: 25%;
+    top: 20%;
 }
 
 ::-webkit-scrollbar {
@@ -106,7 +106,7 @@ div.stickers img {
 p,
 a {
     text-decoration: none;
-    font-family: degular;
+    font-family: sofie-pro;
 }
 
 .icon1:hover {
