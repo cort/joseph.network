@@ -106,7 +106,7 @@ div.stickers img {
 p,
 a {
     text-decoration: none;
-    font-family: sofia-pro;
+    font-family: paralucent-text;
 }
 
 .icon1:hover {
@@ -191,7 +191,7 @@ body {
 
     .name {
         font-size: 1.2em;
-        font-family: sofia-pro;
+        font-family: paralucent-text;
         color: #0a0a0a;
     }
 }
