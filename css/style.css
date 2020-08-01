@@ -75,6 +75,7 @@ div.stickers img {
 p, a {
     font-family: 'nimbus-sans';
     font-weight: 500;
+    line-height: 1em;
 }
 
 a:hover, .icon {
