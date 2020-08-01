@@ -75,6 +75,7 @@ div.stickers img {
 p, a {
     font-family: degular;
     font-weight: 400;
+    line-height: 95%;
 }
 
 a:hover, .icon {
