@@ -221,7 +221,7 @@ input:checked + .slider:before {
 
 @media screen and (max-width:32.5em) {
     html {
-        top: 80px;
+        top: 90px;
     }
     
     .div, body {
