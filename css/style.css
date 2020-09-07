@@ -95,11 +95,11 @@ a:hover, .icon {
 }
 
 .chaincore {
-    color: var(--link-color);
+    color: #0096fe;
 }
 
 .email {
-    color: var(--link-color);
+    color: #5827cc;
 }
 
 svg {
@@ -149,14 +149,12 @@ body {
 
     --font-color: #0f0f0f;
     --bg-color: #fefefe;
-    --link-color: #bdbdbd;
 }
 
 [data-theme="dark"] {
 
     --font-color: #fefefe;
     --bg-color: #0f0f0f;
-    --link-color: #757575;
 }
 
 .switch {
