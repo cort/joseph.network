@@ -149,14 +149,14 @@ body {
 
     --font-color: #0f0f0f;
     --bg-color: #fefefe;
-    --link-color: #4d4d4d;
+    --link-color: #919191;
 }
 
 [data-theme="dark"] {
 
     --font-color: #fefefe;
     --bg-color: #0f0f0f;
-    --link-color: #c3c3c3;
+    --link-color: #757575;
 }
 
 .switch {
