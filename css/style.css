@@ -94,16 +94,12 @@ a:hover, .icon {
     fill: #0E76A8;
 }
 
-.unsplash:hover {
-    fill: #767676;
-}
-
 .chaincore {
-    color: #0096fe;
+    color: var(--link-color);
 }
 
 .email {
-    color: #5838EE;
+    color: var(--link-color);
 }
 
 svg {
@@ -153,13 +149,14 @@ body {
 
     --font-color: #0f0f0f;
     --bg-color: #fefefe;
-
+    --link-color: #4d4d4d;
 }
 
 [data-theme="dark"] {
 
     --font-color: #fefefe;
     --bg-color: #0f0f0f;
+    --link-color: #c3c3c3;
 }
 
 .switch {
