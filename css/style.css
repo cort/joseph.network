@@ -39,10 +39,6 @@ html {
     background-color: none;
 }
 
-.social {
-    font-family: 'urbane';
-}
-
 .namelink {
     text-decoration: none;
     font-family: 'stolzl';
@@ -84,7 +80,7 @@ p {
 }
 
 a {
-    font-family: 'termina';
+    font-family: 'stolzl';
     font-weight: 600;
     line-height: 1.1em;
     text-decoration: none;
