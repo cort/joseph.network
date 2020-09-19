@@ -95,7 +95,7 @@ a:hover, .icon {
 }
 
 .github:hover {
-    color: var(--font-color);
+    color: var(--link-color);
 }
 
 .linkedin {
@@ -103,7 +103,7 @@ a:hover, .icon {
 }
 
 .linkedin:hover {
-    color: var(--font-color);
+    color: var(--link-color);
 }
 
 .email {
