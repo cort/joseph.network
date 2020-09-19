@@ -30,12 +30,6 @@ html {
     top: 150px;
 }
 
-.text {
-    font-family: 'termina';
-    text-decoration: none;
-    color: #707070;
-}
-
 ::-webkit-scrollbar {
     display: none;
 }
@@ -88,30 +82,31 @@ a {
     font-family: 'termina';
     font-weight: 600;
     line-height: 1.1em;
+    text-decoration: none;
 }
 
 a:hover, .icon {
     text-decoration: none;
 }
 
-.twitter:hover {
-    fill: #00ACEE;
+.github {
+    color: #2667ff;
 }
 
 .github:hover {
-    fill: #24292E;
+    color: var(--font-color);
+}
+
+.linkedin {
+    color: #3f8efc;
 }
 
 .linkedin:hover {
-    fill: #0E76A8;
-}
-
-.chaincore {
-    color: #0096fe;
+    color: var(--font-color);
 }
 
 .email {
-    color: #5827cc;
+    color: #87bfff;
 }
 
 svg {
@@ -160,12 +155,14 @@ body {
  :root {
 
     --font-color: #0f0f0f;
+    --link-color: #707070;
     --bg-color: #fefefe;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
     --font-color: #fefefe;
+    --link-color: #707070;
     --bg-color: #0f0f0f;
     }
 }
