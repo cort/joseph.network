@@ -30,8 +30,10 @@ html {
     top: 150px;
 }
 
-.social {
-    font-family: 'TTHoves-Light';
+.text {
+    font-family: 'termina';
+    text-decoration: none;
+    color: #303030;
 }
 
 ::-webkit-scrollbar {
@@ -77,7 +79,7 @@ div.stickers img {
 }
 
 p, a {
-    font-family: 'TTHoves-Medium';
+    font-family: 'bookmania';
     font-weight: 600;
     line-height: 1.1em;
 }
