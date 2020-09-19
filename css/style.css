@@ -30,6 +30,10 @@ html {
     top: 150px;
 }
 
+.social {
+    font-family: 'TTHoves-Light';
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
