@@ -33,7 +33,7 @@ html {
 .text {
     font-family: 'termina';
     text-decoration: none;
-    color: #303030;
+    color: #707070;
 }
 
 ::-webkit-scrollbar {
@@ -78,8 +78,14 @@ div.stickers img {
     z-index: -1;
 }
 
-p, a {
+p {
     font-family: 'bookmania';
+    font-weight: 600;
+    line-height: 1.1em;
+}
+
+a {
+    font-family: 'termina';
     font-weight: 600;
     line-height: 1.1em;
 }
