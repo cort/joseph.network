@@ -28,6 +28,9 @@ html {
     background-color: var(--bg-color);
     color: var(--font-color);
     top: 150px;
+}
+
+.div {
     display: inline-block;
 }
 
