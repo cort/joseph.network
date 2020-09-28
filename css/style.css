@@ -2,36 +2,20 @@
 @import url("https://use.typekit.net/jjx7czz.css");
 
 * {
-    margin: 0;
-    padding: 0;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.5em;
 }
 
-.div, body {
-    width: 650px;
-    text-align: left;
-}
-
 html {
-    position: fixed;
     height: 100%;
-    overflow: hidden;
+    overflow: scroll;
     width: 100vw;
     height: 100vh;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
     background: none;
     font-size: 1.8em;
     background-color: var(--bg-color);
     color: var(--font-color);
-    top: 150px;
-}
-
-.div {
-    display: inline-block;
 }
 
 ::-webkit-scrollbar {
@@ -45,7 +29,6 @@ html {
 
 .namelink {
     text-decoration: none;
-    font-family: 'stolzl';
 }
 
 .namelink:hover {
@@ -57,65 +40,184 @@ html {
     color: var(--font-color);
 }
 
-div.stickers {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-}
-
 div.stickers img {
     position: absolute;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(50%, 50%);
+    transform: translate(50%, 50%);
     will-change: transform;
     width: auto;
     z-index: -1;
 }
 
-p {
-    font-family: 'bookmania';
-    font-weight: 600;
+p,
+.namelink {
+    font-family: 'poppins';
     line-height: 1.1em;
+    margin-top: 0;
 }
 
 a {
-    font-family: 'stolzl';
-    font-weight: 600;
+    color: var(--link-color);
     line-height: 1.1em;
     text-decoration: none;
 }
 
-a:hover, .icon {
+a:hover,
+.icon {
     text-decoration: none;
 }
 
+.name {
+    color: var(--name-color);
+}
+
+.name:hover {
+    color: #00af89;
+    font-family: 'urbane';
+}
+
+.tamusa {
+    color: var(--font-tamusa);
+}
+
+.tamusa:hover {
+    color: #800000;
+    font-family: 'urbane';
+}
+
+.arrow:hover {
+    fill: #63A375;
+}
+
+.chaincore,
+.unlikely,
+.worldplaces {
+    fill: var(--font-color);
+    display: block;
+}
+
+.chaincore {
+    height: 50px;
+    fill: #0096fe;
+}
+
+.chaincore:hover {
+    fill: var(--font-color);
+}
+
+.chaincore-link {
+    color: #0096fe;
+}
+
+.unlikely {
+    height: 125px;
+    fill: #fc581f;
+    stroke: #fc581f;
+}
+
+.unlikely:hover {
+    fill: var(--font-color);
+}
+
+.unlikely-link {
+    color: #fc581f;
+}
+
+.chaincore-link:hover,
+.unlikely-link:hover {
+    color: var(--font-color);
+}
+
+.worldplaces {
+    height: 45px;
+    fill: var(--hover-color);
+}
+
+.worldplaces:hover {
+    fill: var(--font-color);
+}
+
+.worldplaces-link {
+    color: var(--hover-color);
+}
+
+.worldplaces-link:hover {
+    color: var(--font-color);
+}
+
+.meimg {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%;
+    right: 80%;
+    bottom: 65%;
+    opacity: 100%;
+}
+
+.chaincoreimg {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    right: 30%;
+    bottom: -30%;
+    opacity: 70%;
+}
+
+.unlikelyimg {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70%;
+    right: 82%;
+    bottom: -95%;
+}
+
+.worldplacesimg {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45%;
+    right: 25%;
+    bottom: -160%;
+}
+
+.div1:hover .meimg {
+    display: block;
+    border-radius: 50%;
+}
+
+.div3:hover .chaincoreimg {
+    display: block;
+}
+
+.div4:hover .unlikelyimg {
+    display: block;
+}
+
+.div5:hover .worldplacesimg {
+    display: block;
+}
+
 .github {
-    color: #2667ff;
+    fill: var(--font-color);
 }
 
 .github:hover {
-    color: var(--link-color);
+    fill: #2667ff;
 }
 
 .linkedin {
-    color: #3f8efc;
+    fill: var(--font-color);
 }
 
 .linkedin:hover {
-    color: var(--link-color);
+    fill: #3f8efc;
 }
 
 .email {
     color: #87bfff;
-}
-
-svg {
-    fill: var(--font-color);
 }
 
 @-webkit-keyframes fadeIn {
@@ -157,36 +259,183 @@ body {
     animation-duration: 1s;
 }
 
- :root {
+.div1 {
+    padding-top: 2%;
+    margin-bottom: 40%;
+}
+
+div {
+    display: block;
+    width: 50vw;
+    text-align: left;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+.slide {
+    width: 50vw;
+    height: 50vh;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.downArrow {
+    display: block;
+    bottom: 40%;
+    left: 50%;
+    fill: var(--font-color);
+}
+
+.bounce {
+    -moz-animation: bounce 2.5s infinite;
+    -webkit-animation: bounce 2.5s infinite;
+    animation: bounce 2.5s infinite;
+}
+
+@-moz-keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -moz-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+
+    60% {
+        -moz-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+@-webkit-keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+
+    60% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+
+    60% {
+        -moz-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+:root {
 
     --font-color: #0f0f0f;
+    --font-tamusa: #661717;
     --link-color: #707070;
     --bg-color: #fefefe;
+    --name-color: #076651;
+    --hover-color: #8a806c;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-    --font-color: #fefefe;
-    --link-color: #707070;
-    --bg-color: #0f0f0f;
+        --font-color: #fefefe;
+        --font-tamusa: #e39494;
+        --link-color: #707070;
+        --bg-color: #0f0f0f;
+        --name-color: #b4f5e6;
+
     }
 }
 
-@media screen and (max-width:32.5em) {
+@media screen and (max-width: 600px) {
+
     html {
-        top: 90px;
-    }
-    
-    .div, body {
-        width: 90%;
-        padding-left: 10px;
-        padding-right: 10px;
+        overflow-x: hidden;
     }
 
     * {
-        font-size: 0.94em;
+        font-size: 0.96em;
     }
-    .switch {
-        right: 2%;
-        top: 2%;
+
+    .chaincore {
+        height: 30px;
+    }
+
+    .unlikely {
+        height: 60px;
+    }
+
+    .worldplaces {
+        height: 26px;
+    }
+
+    .div1:hover .meimg {
+        display: none;
+    }
+
+    .div3:hover .chaincoreimg {
+        display: none;
+    }
+
+    .div4:hover .unlikelyimg {
+        display: none;
+    }
+
+    .div5:hover .worldplacesimg {
+        display: none;
+    }
+
+    .div1 {
+        padding-top: 35%;
+        padding-bottom: 25%;
+    }
+
+    .div6 {
+        padding-bottom: 25%;
+    }
+
+    div,
+    .slide {
+        width: 90vw;
+    }
 }
