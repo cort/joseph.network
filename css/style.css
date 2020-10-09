@@ -51,16 +51,15 @@ div.stickers img {
 
 p,
 .namelink {
-    font-family: 'proxima-nova';
-    font-weight: 500;
+    font-family: 'aktiv-grotesk';
+    font-weight: 400;
     line-height: 1.1em;
     margin-top: 0;
 }
 
 p2 {
-    font-family: 'bookmania';
+    font-family: 'aktiv-grotesk-extended';
     font-weight: 500;
-    line-height: 1.1em;
     margin-top: 0;
 }
 
