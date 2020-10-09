@@ -57,6 +57,13 @@ p,
     margin-top: 0;
 }
 
+p2 {
+    font-family: 'bookmania';
+    font-weight: 500;
+    line-height: 1.1em;
+    margin-top: 0;
+}
+
 a {
     color: var(--link-color);
     line-height: 1.1em;
