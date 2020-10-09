@@ -51,7 +51,8 @@ div.stickers img {
 
 p,
 .namelink {
-    font-family: 'poppins';
+    font-family: 'stratos-lights';
+    font-weight: 400;
     line-height: 1.1em;
     margin-top: 0;
 }
