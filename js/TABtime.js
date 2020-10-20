@@ -21,7 +21,7 @@ function getTime() {
     if (second.toString().length == 1) {
         second = '0' + second;
     }
-    var dateTime = hour + ':' + minute + ':' + second;
+    var dateTime = hour + ':' + minute;
     return dateTime;
 }
 
