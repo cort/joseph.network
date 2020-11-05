@@ -15,6 +15,7 @@ html {
     font-size: 1.8em;
     background-color: var(--bg-color);
     color: var(--font-color);
+    user-select: none;
 }
 
 ::-webkit-scrollbar {
@@ -73,7 +74,6 @@ a:hover,
 
 .name:hover {
     color: #00af89;
-    font-family: 'urbane';
 }
 
 .tamusa {
@@ -82,7 +82,6 @@ a:hover,
 
 .tamusa:hover {
     color: #800000;
-    font-family: 'urbane';
 }
 
 .arrow:hover {
