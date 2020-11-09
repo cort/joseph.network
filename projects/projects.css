@@ -210,6 +210,11 @@ body {
     }
 }
 
+.back:hover {
+    fill: #0096fe;  
+}
+
+/* 
 @-webkit-keyframes backArrow {
     from {
         fill: var(--font-color);
@@ -248,3 +253,4 @@ body {
     -moz-animation-duration: 1s;
     animation-duration: 1s;
 }
+*/
