@@ -118,7 +118,7 @@ a:hover {
 	display: block;
 	margin-top: 0px;
 	margin-bottom: 100px;
-	background-color: #484646;
+	background-color: none;
 	-webkit-column-break-inside: avoid;
 	-moz-column-break-inside: avoid;
 	border-radius: 10px;
@@ -132,7 +132,7 @@ a:hover {
 	display: block;
 	margin-top: 0px;
 	margin-bottom: 100px;
-	background-color: #dfceb4;
+	background-color: none;
 	-webkit-column-break-inside: avoid;
 	-moz-column-break-inside: avoid;
 }
@@ -145,7 +145,7 @@ a:hover {
 	display: block;
 	margin-top: 0px;
 	margin-bottom: 20%;
-	background-color: #ff5700;
+	background-color: none;
 	-webkit-column-break-inside: avoid;
 	-moz-column-break-inside: avoid;
 }
