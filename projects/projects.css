@@ -212,31 +212,31 @@ body {
 
 @-webkit-keyframes backArrow {
     from {
-        margin-left: 0;
+        fill: var(--font-color);
     }
 
     to {
-        margin-left: -5%;
+        fill: #0096fe;
     }
 }
 
 @-moz-keyframes backArrow {
     from {
-        margin-left: 0;
+        fill: var(--font-color);
     }
 
     to {
-        margin-left: -5%;
+        fill: #0096fe;
     }
 }
 
 @keyframes backArrow {
     from {
-        margin-left: 0;
+        fill: var(--font-color);
     }
 
     to {
-        margin-left: -5%;
+        fill: #0096fe;
     }
 }
 
