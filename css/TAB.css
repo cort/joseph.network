@@ -17,11 +17,6 @@ html {
     color: var(--font-color);
 }
 
-p {
-    color: #fff;
-    opacity: 50%;
-}
-
 .dateDiv {
     font-family: 'neue-haas-unica';
     display: block;
