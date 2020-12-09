@@ -21,8 +21,8 @@ function getTime() {
     if (second.toString().length == 1) {
         second = '0' + second;
     }
-    var daysLeft = day;
-    return daysLeft;
+    var time = hour + ':' + minute;
+    return time;
 }
 
 setInterval(function () {
