@@ -92,4 +92,7 @@ div {
     * {
         font-size: 0.96em;
     }
+    .timeDiv {
+        margin-top: 30%;
+    }
 }
