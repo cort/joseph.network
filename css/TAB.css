@@ -17,7 +17,7 @@ html {
     color: var(--font-color);
 }
 
-.linkP {
+p {
     color: #fff;
     opacity: 50%;
 }
