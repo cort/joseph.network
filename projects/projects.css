@@ -30,6 +30,7 @@ h5 {
     font-size: 18px;
     font-weight: normal;
     line-height: 20px;
+    line-spacing: 18px;
     text-align: left;
     padding-left: 30px;
     color: var(--font-color);
