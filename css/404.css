@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @import url("https://use.typekit.net/jjx7czz.css");
+@font-face {
+	font-family: "atkinson";
+	src: url("/Atkinson-Hyperlegible/Atkinson-Hyperlegible-Regular-102.ttf");
+}
 
 * {
     margin: 0;
@@ -8,7 +12,7 @@
     margin-left: auto;
     margin-right: auto;
     color: #0a0a0a;
-    font-family: degular;
+    font-family: "atkinson";
     cursor: help;
 }
 
@@ -26,7 +30,7 @@ html {
   overflow-y: scroll;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
-  background-color: #fefefe;
+  background-color: var(-font--color);
   font-size: 1.8em;   
 }
 
@@ -40,11 +44,11 @@ a {
 }
 
 a:hover {
-    color: #6b33f1;
+    color: #0096fe;
 }
 
 h1 {
-    color: #6b33f1;
+    color: #0096fe;
     font-size: 5em;
     font-family: "mono45-headline";
     font-weight: 900;
