@@ -37,16 +37,18 @@ html {
     display: none;
 }
 
-a {
+p, a {
     color: var(--font-color);
 }
 
 a:hover {
-    color: #0096fe;
+    color: var(--font-color);
+    opacity: 20%;
 }
 
 h1 {
-    color: #0096fe;
+    color: var(--font-color);
+    opacity: 20%;
     font-size: 5em;
     font-family: "mono45-headline";
     font-weight: 900;
