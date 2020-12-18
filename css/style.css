@@ -1,27 +1,70 @@
 @charset "UTF-8";
 @import url("https://use.typekit.net/jjx7czz.css");
 
-body {
-	background-color: var(--bg-color);
+@font-face {
+	font-family: "atkinson";
+	src: url("/Atkinson-Hyperlegible/Atkinson-Hyperlegible-Regular-102.ttf");
 }
 
-.sr .fooReveal {
-	visibility: hidden;
+html,
+body {
+	background-color: var(--bg-color);
+	position: relative;
+	width: 100vw;
+	margin: 0;
+}
+
+.desc {
+	padding-left: 20%;
+	padding-right: 20%;
+	margin-top: 7.5%;
+	margin-bottom: 7.5%;
 }
 
 h1 {
-	font-family: 'sofia-pro';
-	font-size: 3.5em;
-	font-weight: 500;
-	line-height: 70px;
-	letter-spacing: -2px;
+	font-family: 'atkinson';
+	font-size: 2.5em;
+	font-weight: 400;
+	line-height: 42px;
 	text-transform: none;
-	margin-bottom: 32px;
+	margin-top: 10%;
+	margin-bottom: 10%;
 	color: var(--font-color);
+	text-align: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	z-index: 1;
+}
+
+h2 {
+	font-family: 'atkinson';
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 26px;
+	letter-spacing: 0.3px;
+	text-align: left;
+	color: var(--font-color);
+	margin-top: 30px;
+	margin-bottom: -10px;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+h3 {
+	font-family: 'atkinson';
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 0.3px;
+	text-align: left;
+	color: var(--font-color);
+	margin-top: 20px;
+	margin-left: 4%;
+	margin-right: 4%;
 }
 
 h5 {
-	font-family: 'sofia-pro';
+	font-family: 'atkinson';
 	font-size: 18px;
 	font-weight: normal;
 	line-height: 24px;
@@ -32,24 +75,64 @@ h5 {
 	padding-top: 0px;
 }
 
-h3 {
-	font-family: 'sofia-pro';
-	font-size: 20px;
-	font-weight: normal;
-	line-height: 30px;
-	text-align: left;
-	padding-left: 30px;
-	padding-right: 30px;
-	color: var(--font-color);
-	padding-top: 0px;
-}
-
 p {
-	font-family: 'sofia-pro';
+	font-family: 'atkinson';
 	font-size: 18px;
 	font-weight: normal;
 	line-height: 20px;
 	color: var(--font-color);
+}
+
+.project {
+	width: 40vw;
+	height: 400px;
+	margin: 2%;
+	float: right;
+	align-content: right;
+}
+
+.me {
+	width: 10%;
+	height: 10%;
+	float: left;
+	margin-left: 4%;
+	margin-right: 2%;
+	opacity: 100%;
+}
+
+.me:hover {
+	content: url("/img/me2.png");
+}
+
+.circle {
+	position: absolute;
+	width: 300px;
+	top: -30px;
+	left: 220px;
+}
+
+.projectsDrawing {
+	position: absolute;
+	width: 200px;
+	top: 240px;
+	left: 80px;
+}
+
+.header {
+	text-decoration: none;
+}
+
+.article {
+	float: left;
+	width: 42%;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+.projects:after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 :root {
@@ -78,7 +161,7 @@ p {
 	display: none;
 }
 
-a:hover {
+.squiggly:hover {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23690bff' stroke-width='1.5' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
 	background-position: 0 100%;
 	background-size: auto 8px;
@@ -87,274 +170,187 @@ a:hover {
 	color: var(--font-color);
 }
 
-.desc-outer {
-	position: relative;
-	text-align: left;
-	padding-top: 15vh;
+a {
+	text-decoration: underline;
+	color: var(--font-color);
 }
 
-.desc {
-	display: block;
-	text-align: left;
-	position: fixed;
-	z-index: -1;
-	margin-left: 5%;
-	margin-bottom: 0px;
-	width: 70%;
-}
-
-.projects {
-	position: relative;
-	display: inline-block;
-	column-count: 1;
-	text-align: center;
-	margin-top: 55vh;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-bottom: 300px;
-}
-
-.chaincore {
-	display: block;
-	margin-top: 0px;
-	margin-bottom: 100px;
-	background-color: #484646;
-	-webkit-column-break-inside: avoid;
-	-moz-column-break-inside: avoid;
-	border-radius: 10px;
-}
-
-.chaincore a {
-	text-decoration: none;
-}
-
-.worldplaces {
-	display: block;
-	margin-top: 0px;
-	margin-bottom: 100px;
-	background-color: none;
-	-webkit-column-break-inside: avoid;
-	-moz-column-break-inside: avoid;
-}
-
-.worldplaces a {
-	text-decoration: none;
-}
-
-.unlikely {
-	display: block;
-	margin-top: 0px;
-	margin-bottom: 20%;
-	background-color: none;
-	-webkit-column-break-inside: avoid;
-	-moz-column-break-inside: avoid;
-}
-
-.unlikely a {
-	text-decoration: none;
-}
-
-.chaincore,
-.worldplaces,
-.unlikely {
-	display: inline-block;
-	position: relative;
-	height: 50vh;
-	border-radius: 15px;
-	width: 50vw;
-
-	margin-left: 10%;
-	margin-right: 10%;
-}
-
-.comingsoon:hover {
-	cursor: not-allowed;
-}
-
-.image {
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	background-position: center center;
-	background-repeat: none;
-	z-index: -1;
-	border-radius: 15px;
-}
-
-.about {
-	display: none;
-}
-
-.unlikely:hover .about {
-	display: block;
+.comingsoon {
+	background: var(--font-color);
+	opacity: 3%;
 }
 
 .links {
-	margin-top: 200px;
-	z-index: 1;
+	margin-top: 10%;
 	display: inline-block;
-	text-align: left;
-	position: relative;
-	margin-left: 20px;
-	width: 40%;
+	text-align: center;
+	width: 100vw;
 }
 
 .links a {
-	text-decoration: none;
+	text-decoration: underline;
 	color: var(--font-color);
 	padding-left: 0px;
 }
 
+.links a:hover,
+a:hover {
+	color: #bd94ff;
+}
+
 /* mobile */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width:599px) {
 
 	h1 {
-		font-size: 40px;
-		line-height: 44px;
+		font-size: 32px;
+		line-height: 32px;
+		margin-bottom: 100px;
 	}
 
 	h2 {
-		font-size: 40px;
-		line-height: 44px;
+		font-size: 20px;
+		line-height: 20px;
+		margin-top: 10px;
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+
+	h3 {
+		margin-left: 0%;
+		margin-right: 0%;
 	}
 
 	.desc {
-		display: block;
-		text-align: left;
-		position: fixed;
-		z-index: -1;
-		margin-left: 5%;
-		margin-bottom: 0px;
-		width: 85%;
+		padding-left: 0%;
+		padding-right: 0%;
 	}
 
-	.projects {
-		margin-top: 60vh;
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-bottom: 450px;
+	.article {
+		width: 92%;
+		height: 600px;
+		margin-bottom: -10%;
 	}
 
-	.chaincore {
-		margin-top: 0px;
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-bottom: 20px;
-	}
-
-	.worldplaces {
-		margin-top: 0px;
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-bottom: 20px;
-	}
-
-	.unlikely {
-		margin-top: 0px;
-		margin-left: 20px;
-		margin-right: 20px;
-		margin-bottom: 20px;
-	}
-
-	.chaincore,
-	.worldplaces,
-	.unlikely {
-
-		height: 40vh;
+	.project {
 		width: 90vw;
-		margin-left: 0%;
-		margin-right: 0%;
+		height: 400px;
+	}
+
+	.comingsoonDiv {
+		display: none;
+	}
+
+	.circle {
+		width: 250px;
+		top: -28px;
+		left: 14%;
+	}
+
+	.projectsDrawing {
+		position: absolute;
+		width: 200px;
+		top: 280px;
+		left: 35px;
 	}
 }
 
 /* tablet landscape */
 
-@media screen and (min-width:769px) and (max-width:1439px) {
-	.desc-outer {
-		position: relative;
-		text-align: left;
-		padding-top: 150px;
-
-	}
+@media screen and (min-width:600px) and (max-width:999px) {
 
 	.desc {
-		display: block;
-		text-align: left;
-		position: fixed;
-		z-index: -1;
-		margin-left: 5%;
-		margin-bottom: 0px;
-		width: 80%;
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 
-	.chaincore,
-	.worldplaces,
-	.unlikely {
+	.circle {
+		width: 300px;
+		top: -30px;
+		left: 16%;
+	}
 
-		height: 60vh;
-		width: 60vw;
+	.projectsDrawing {
+		position: absolute;
+		width: 200px;
+		top: 260px;
+		left: 30px;
 	}
 }
 
 /* wide */
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1000px) and (max-width:1299px) {
+
+	.desc {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.circle {
+		width: 300px;
+		top: -30px;
+		left: 19%;
+	}
+
+	.projectsDrawing {
+		position: absolute;
+		width: 200px;
+		top: 200px;
+		left: 40px;
+	}
+}
+
+@media screen and (min-width:1300px) {
+
 	h1 {
-		font-size: 60px;
-		line-height: 80px;
+		margin-top: 60px;
 	}
 
-	.chaincore,
-	.worldplaces,
-	.unlikely {
-
-		height: 40vh;
-		width: 40vw;
+	.circle {
+		width: 300px;
+		top: -30px;
+		left: 26.2%;
 	}
+
 }
 
 
 @-webkit-keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
+	from {
+		opacity: 0;
+	}
 
-    to {
-        opacity: 1;
-    }
+	to {
+		opacity: 1;
+	}
 }
 
 @-moz-keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
+	from {
+		opacity: 0;
+	}
 
-    to {
-        opacity: 1;
-    }
+	to {
+		opacity: 1;
+	}
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
+	from {
+		opacity: 0;
+	}
 
-    to {
-        opacity: 1;
-    }
+	to {
+		opacity: 1;
+	}
 }
 
 body {
-    -webkit-animation: fadeIn ease-in 0.5s;
-    -moz-animation: fadeIn ease-in 0.5s;
-    animation: fadeIn ease-in 0.5s;
-    -webkit-animation-duration: 0.5s;
-    -moz-animation-duration: 0.5s;
-    animation-duration: 0.5s;
+	-webkit-animation: fadeIn ease-in 0.5s;
+	-moz-animation: fadeIn ease-in 0.5s;
+	animation: fadeIn ease-in 0.5s;
+	-webkit-animation-duration: 0.5s;
+	-moz-animation-duration: 0.5s;
+	animation-duration: 0.5s;
 }
