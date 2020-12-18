@@ -11,7 +11,7 @@ body {
 
 h1 {
     display: block;
-    font-family: 'sofia-pro';
+    font-family: 'atkinson';
     font-size: 3em;
     font-weight: 600;
     line-height: 70px;
@@ -23,7 +23,7 @@ h1 {
 
 h5 {
     display: block;
-    font-family: 'sofia-pro';
+    font-family: 'atkinson';
     font-size: 18px;
     font-weight: normal;
     line-height: 24px;
@@ -35,7 +35,7 @@ h5 {
 
 p {
     display: block;
-    font-family: 'sofia-pro';
+    font-family: 'atkinson';
     font-size: 20px;
     font-weight: normal;
     line-height: 30px;
