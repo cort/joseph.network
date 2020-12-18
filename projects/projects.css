@@ -19,7 +19,6 @@ h1 {
     font-size: 3em;
     font-weight: 600;
     line-height: 70px;
-    letter-spacing: -2px;
     text-transform: none;
     margin-bottom: 32px;
     color: var(--font-color);
