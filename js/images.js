@@ -4,7 +4,7 @@ var hoverDistort = new hoverEffect({
     intensity: 0.5,
     image1: 'img/byjlc1.png',
     image2: 'img/byjlc2.png',
-    displacementImage: 'js/4.png'
+    displacementImage: 'js/9.jpg'
 });
 
 var hoverDistort = new hoverEffect({
@@ -12,7 +12,7 @@ var hoverDistort = new hoverEffect({
     intensity: 0.5,
     image1: 'img/worldplaces1.jpg',
     image2: 'img/worldplaces2.jpg',
-    displacementImage: 'js/9.jpg'
+    displacementImage: 'js/4.png'
 });
 
 var hoverDistort = new hoverEffect({
@@ -22,5 +22,3 @@ var hoverDistort = new hoverEffect({
     image2: 'img/unlikely2.png',
     displacementImage: 'js/14.jpg'
 });
-
-// duplicate the above block with a new class name when making a new post i.e. '.post4'
