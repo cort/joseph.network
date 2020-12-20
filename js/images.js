@@ -16,9 +16,9 @@ var hoverDistort = new hoverEffect({
 });
 
 var hoverDistort = new hoverEffect({
-    parent: document.querySelector('.chaincore'),
+    parent: document.querySelector('.photos'),
     intensity: 0.5,
     image1: 'img/photos1.png',
-    image2: 'img/photos2.png',
+    image2: 'img/photos2.jpg',
     displacementImage: 'js/9.jpg'
 });
