@@ -1,13 +1,5 @@
 
 var hoverDistort = new hoverEffect({
-    parent: document.querySelector('.chaincore'),
-    intensity: 0.5,
-    image1: 'img/byjlc1.png',
-    image2: 'img/byjlc2.png',
-    displacementImage: 'js/9.jpg'
-});
-
-var hoverDistort = new hoverEffect({
     parent: document.querySelector('.worldplaces'),
     intensity: 0.5,
     image1: 'img/worldplaces1.jpg',
@@ -21,4 +13,12 @@ var hoverDistort = new hoverEffect({
     image1: 'img/unlikely1.png',
     image2: 'img/unlikely2.png',
     displacementImage: 'js/14.jpg'
+});
+
+var hoverDistort = new hoverEffect({
+    parent: document.querySelector('.chaincore'),
+    intensity: 0.5,
+    image1: 'img/photos1.png',
+    image2: 'img/photos2.png',
+    displacementImage: 'js/9.jpg'
 });
