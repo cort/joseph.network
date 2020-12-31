@@ -3,7 +3,7 @@ var hoverDistort = new hoverEffect({
     intensity: 0.5,
     image1: 'img/covid1.png',
     image2: 'img/covid2.png',
-    displacementImage: 'js/8.png'
+    displacementImage: 'js/8.jpg'
 });
 
 var hoverDistort = new hoverEffect({
