@@ -1,3 +1,10 @@
+var hoverDistort = new hoverEffect({
+    parent: document.querySelector('.covid'),
+    intensity: 0.5,
+    image1: 'img/covid1.png',
+    image2: 'img/covid2.png',
+    displacementImage: 'js/2.jpg'
+});
 
 var hoverDistort = new hoverEffect({
     parent: document.querySelector('.worldplaces'),
