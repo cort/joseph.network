@@ -6,11 +6,6 @@
     src: url("/Atkinson-Hyperlegible/Atkinson-Hyperlegible-Regular-102.ttf");
 }
 
-* {
-    max-width: 95vw;
-    margin: auto;
-}
-
 .nav {
     font-family: 'atkinson';
     position: fixed;
@@ -166,9 +161,9 @@ a:hover {
 @media screen and (max-width: 767px) {
 
     * {
-        overflow-x: hidden;
+    max-width: 95vw;
     }
-    
+ 
     body {
         margin: 0;
     }
@@ -192,15 +187,11 @@ a:hover {
         width: 100%;
     }
 
-    .div {
-        width: 95%;
+    .div, .gif {
+        width: 90vw;
         margin-left: auto;
         margin-right: auto;
     }
-
-    .gif {
-        margin-left: auto;
-        margin-right: auto;
     
     .image,
     .image-ss,
