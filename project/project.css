@@ -182,13 +182,18 @@ a:hover {
 
     .div {
         width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .image,
-    .image-ss,
-    .image-fullwidth,
     .gif {
         width: 86.5vw;
+    
+    .image,
+    .image-ss,
+    .image-fullwidth {
+        height: 43vh;
+        width: auto;
         margin-left: auto;
         margin-right: auto;
     }
