@@ -224,7 +224,7 @@ a:hover {
 
 /* mobile */
 
-@media screen and (max-width:599px) {
+@media screen and (max-width:428px) {
 
 	.nav {
     		position: absolute;
@@ -287,7 +287,7 @@ a:hover {
 
 /* tablet landscape */
 
-@media screen and (min-width:600px) and (max-width:999px) {
+@media screen and (min-width:429px) and (max-width:999px) {
 
 	.desc {
 		padding-left: 5%;
