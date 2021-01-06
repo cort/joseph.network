@@ -224,7 +224,7 @@ a:hover {
 
 	.nav {
     		position: absolute;
-		margin-top: -15%;
+		top: -5px;
 	}
 	
 	h1 {
