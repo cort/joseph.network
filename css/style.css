@@ -17,7 +17,7 @@ body {
     font-family: 'atkinson';
     position: fixed;
     left: 20px;
-    top: 0px;
+    top: -5px;
     color: var(--box-color);
     z-index: 2;
     text-decoration: none;
