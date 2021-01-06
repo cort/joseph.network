@@ -13,6 +13,25 @@ body {
 	margin: 0;
 }
 
+.nav {
+    font-family: 'atkinson';
+    position: fixed;
+    left: 20px;
+    top: 0px;
+    color: var(--box-color);
+    z-index: 2;
+    text-decoration: none;
+}
+
+.name {
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+.name:hover {
+    color: var(--box-color);
+}
+
 .desc {
 	padding-left: 20%;
 	padding-right: 20%;
