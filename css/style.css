@@ -224,10 +224,12 @@ a:hover {
 
 	.nav {
     		position: absolute;
-		padding-bottom: 15%;
+		top: -5px;
+		margin-top: 0;
 	}
 	
 	h1 {
+		padding-top: 15%;
 		font-size: 32px;
 		line-height: 32px;
 		margin-bottom: 100px;
