@@ -253,7 +253,7 @@ a:hover {
     .back {
         position: fixed;
         left: 20px;
-        bottom: 5px;
+        bottom: 20px;
         z-index: 2;
         }      
 }
@@ -270,7 +270,7 @@ a:hover {
     .back {
         position: fixed;
         left: 20px;
-        bottom: 5px;
+        bottom: 20px;
         z-index: 2;
     }   
 }
