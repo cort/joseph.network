@@ -10,7 +10,7 @@
     font-family: 'atkinson';
     position: fixed;
     left: 20px;
-    top: 0px;
+    top: -5px;
     color: var(--box-color);
     z-index: 2;
     text-decoration: none;
@@ -76,7 +76,7 @@ p {
 :root {
     --font-color: #0f0f0f;
     --bg-color: #fefefe;
-    --box-color: #888888;
+    --box-color: #515151;
 }
 
 @media (prefers-color-scheme: dark) {
