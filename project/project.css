@@ -246,17 +246,33 @@ a:hover {
 
 /* tablet landscape */
 
-@media screen and (min-width:769px) and (max-width:1439px) {}
+@media screen and (min-width:769px) and (max-width:1439px) {
+    
+    .back {
+        position: fixed;
+        left: 20px;
+        bottom: 5px;
+        z-index: 2;
+        }      
+}
 
 /* wide */
 
 @media screen and (min-width:1440px) {
+    
     h1 {
         font-size: 60px;
         line-height: 80px;
     }
-}
 
+    .back {
+        position: fixed;
+        left: 20px;
+        bottom: 5px;
+        z-index: 2;
+    }   
+}
+    
 .back:hover {
     fill: #bd94ff;
 }
