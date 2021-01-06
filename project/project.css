@@ -76,14 +76,14 @@ p {
 :root {
     --font-color: #0f0f0f;
     --bg-color: #fefefe;
-    --box-color: #515151;
+    --box-color: #888888;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
         --font-color: #fefefe;
         --bg-color: #0e0e0e;
-        --box-color: #222222;
+        --box-color: #454545;
     }
 }
 
@@ -194,6 +194,12 @@ a:hover {
     .image-fullwidth {
         height: 43vh;
         width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        
+    .image-ss {
+        display: inline-block;
         margin-left: auto;
         margin-right: auto;
     }
