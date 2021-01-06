@@ -109,6 +109,10 @@ p {
 	align-content: right;
 }
 
+canvas {
+	border-radius: 10px;
+}
+
 .me {
 	width: 10%;
 	height: 10%;
