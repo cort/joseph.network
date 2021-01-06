@@ -18,7 +18,7 @@ body {
     position: fixed;
     left: 20px;
     top: -5px;
-    color: var(--box-color);
+    color: var(--name-color);
     z-index: 2;
     text-decoration: none;
 }
@@ -156,12 +156,14 @@ p {
 :root {
 	--font-color: #0f0f0f;
 	--bg-color: #fefefe;
+	--name-color: #888888;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
 		--font-color: #fefefe;
 		--bg-color: #0e0e0e;
+		--name-color: #454545;
 	}
 }
 
