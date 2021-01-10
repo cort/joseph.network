@@ -346,7 +346,6 @@ a:hover {
 
 }
 
-/* 
 @-webkit-keyframes fadeIn {
 	from {
 		opacity: 0;
@@ -384,4 +383,4 @@ body, img {
 	-webkit-animation-duration: 0.5s;
 	-moz-animation-duration: 0.5s;
 	animation-duration: 0.5s;
-} */
+}
