@@ -18,7 +18,7 @@
   
 <body>
 
-  <div class="desc-outer">
+  <div class="desc-outer scroll-fade-up">
     <div class="desc">
       <h1>I'm Joseph Cortez, <img src="img/circle.png" class="circle" alt="circle">computer information systems student passionate
         about online identity, design, and
@@ -30,7 +30,7 @@
 
   <div class="projects"> 
 
-    <div class="article">
+    <div class="article scroll-fade-up">
       <a href="https://josephcortez.co/project/covid">
         <div class="covid project" id="canvas">
         </div>
@@ -39,7 +39,7 @@
       <h3>Web Design & Development</h3>
     </div>
     
-    <div class="article">
+    <div class="article scroll-fade-up">
       <a href="https://josephcortez.co/project/worldplaces">
         <div class="worldplaces project" id="canvas">
         </div>
@@ -48,7 +48,7 @@
       <h3>Social Media Marketing, Branding</h3>
     </div>
 
-    <div class="article">
+    <div class="article scroll-fade-up">
       <a href="https://josephcortez.co/project/unlikely">
         <div class="unlikely project"></div>
         <h2>Unlikely Media</h2>
@@ -56,7 +56,7 @@
       <h3>Social Media Marketing, Branding</h3>
     </div>
     
-    <div class="article">
+    <div class="article scroll-fade-up">
       <a href="https://unsplash.com/@josephcortez">
         <div class="photography project"></div>
         <h2>Photography</h2>
@@ -64,7 +64,7 @@
       <h3>Featured on Unsplash Editorial</h3>
     </div>
 
-<!--     <div class="article comingsoonDiv">
+<!--     <div class="article scroll-fade-up comingsoonDiv">
       <a href="https://josephcortez.co">
         <div class="comingsoon project"></div>
         <h2>Much more coming soon...</h2>
@@ -74,12 +74,12 @@
 
   </div>
 
-<!--   <div class="desc">
+<!--   <div class="desc scroll-fade-up">
     <h1>My goal is to help brands maximize their influence and impact by utilizing modern web technologies. See
       anything you like above? <a href="mailto:jcort@protonmail.com">Let's talk.</a></h1>
   </div> -->
 
-  <div class="links">
+  <div class="links scroll-fade-up">
     <p><a class="squiggly" href="mailto:jcort@protonmail.com">Contact</a> &nbsp; &nbsp;
       <a class="squiggly" href="https://github.com/cortez">GitHub</a> &nbsp; &nbsp;
       <a class="squiggly" href="https://linkedin.com/in/seph">LinkedIn</a> &nbsp; &nbsp;
@@ -91,6 +91,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
   <script src="js/hover-effect.umd.js"></script>
   <script src="js/images.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>$(function () {const fade_bottom = 50;const fade_move = 100;const fade_time = 800;$(".scroll-fade-up").css({opacity: 0,transform: "translateY(" + fade_move + "px)",transition: fade_time + "ms",});$(window).on("scroll load", function () {const scroll_top = $(this).scrollTop();const scroll_bottom = scroll_top + $(this).height();const fade_position = scroll_bottom - fade_bottom;$(".scroll-fade-up").each(function () {const this_position = $(this).offset().top;if (fade_position > this_position) {$(this).css({opacity: 1,transform: "translateY(0)",});}});});});</script>
+
 
 </body>
 <script src="js/darkmode.js"></script>
