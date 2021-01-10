@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://use.typekit.net/jjx7czz.css");
+
 @font-face {
 	font-family: "atkinson";
 	src: url("/Atkinson-Hyperlegible/Atkinson-Hyperlegible-Regular-102.ttf");
@@ -14,22 +15,22 @@ body {
 }
 
 .nav {
-    font-family: 'atkinson';
-    position: fixed;
-    left: 20px;
-    top: -5px;
-    color: var(--name-color);
-    z-index: 2;
-    text-decoration: none;
+	font-family: 'atkinson';
+	position: fixed;
+	left: 20px;
+	top: -5px;
+	color: var(--name-color);
+	z-index: 2;
+	text-decoration: none;
 }
 
 .name {
-    color: var(--font-color);
-    text-decoration: none;
+	color: var(--font-color);
+	text-decoration: none;
 }
 
 .name:hover {
-    color: var(--box-color);
+	color: var(--box-color);
 }
 
 .desc {
@@ -111,7 +112,7 @@ p {
 
 canvas {
 	border-radius: 10px;
-	
+
 }
 
 .me {
@@ -228,10 +229,10 @@ a:hover {
 @media screen and (max-width:488px) {
 
 	.nav {
-    	position: absolute;
+		position: absolute;
 		margin-top: -19px;
 	}
-	
+
 	h1 {
 		padding-top: 15%;
 		font-size: 32px;
@@ -257,14 +258,18 @@ a:hover {
 		padding-right: 0%;
 	}
 
+	.projects {
+		padding-left: 2.5vw;
+	}
+
 	.article {
-		width: 100vw;
+		width: 90vw;
 		height: 600px;
 		margin-bottom: -10%;
 	}
 
 	.project {
-		width: 100vw;
+		width: 90vw;
 		height: 400px;
 	}
 
