@@ -111,6 +111,7 @@ p {
 
 canvas {
 	border-radius: 10px;
+	
 }
 
 .me {
@@ -224,7 +225,7 @@ a:hover {
 
 /* mobile */
 
-@media screen and (max-width:428px) {
+@media screen and (max-width:628px) {
 
 	.nav {
     		position: absolute;
@@ -257,7 +258,7 @@ a:hover {
 	}
 
 	.article {
-		width: 92%;
+		width: 92.15%;
 		height: 600px;
 		margin-bottom: -10%;
 	}
@@ -287,7 +288,7 @@ a:hover {
 
 /* tablet landscape */
 
-@media screen and (min-width:429px) and (max-width:999px) {
+@media screen and (min-width:629px) and (max-width:999px) {
 
 	.desc {
 		padding-left: 5%;
