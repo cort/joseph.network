@@ -225,10 +225,10 @@ a:hover {
 
 /* mobile */
 
-@media screen and (max-width:628px) {
+@media screen and (max-width:488px) {
 
 	.nav {
-    		position: absolute;
+    	position: absolute;
 		margin-top: -19px;
 	}
 	
@@ -258,13 +258,13 @@ a:hover {
 	}
 
 	.article {
-		width: 92.15%;
+		width: 100vw;
 		height: 600px;
 		margin-bottom: -10%;
 	}
 
 	.project {
-		width: 90vw;
+		width: 100vw;
 		height: 400px;
 	}
 
@@ -277,18 +277,11 @@ a:hover {
 		top: 30px;
 		left: 14%;
 	}
-
-	.projectsDrawing {
-		position: absolute;
-		width: 200px;
-		top: 280px;
-		left: 35px;
-	}
 }
 
 /* tablet landscape */
 
-@media screen and (min-width:629px) and (max-width:999px) {
+@media screen and (min-width:489px) and (max-width:999px) {
 
 	.desc {
 		padding-left: 5%;
@@ -299,13 +292,6 @@ a:hover {
 		width: 300px;
 		top: -30px;
 		left: 16%;
-	}
-
-	.projectsDrawing {
-		position: absolute;
-		width: 200px;
-		top: 260px;
-		left: 30px;
 	}
 }
 
@@ -323,13 +309,6 @@ a:hover {
 		top: -30px;
 		left: 19%;
 	}
-
-	.projectsDrawing {
-		position: absolute;
-		width: 200px;
-		top: 200px;
-		left: 40px;
-	}
 }
 
 @media screen and (min-width:1300px) {
@@ -343,44 +322,4 @@ a:hover {
 		top: -30px;
 		left: 26.2%;
 	}
-
-}
-
-@-webkit-keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
-
-	to {
-		opacity: 1;
-	}
-}
-
-@-moz-keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
-
-	to {
-		opacity: 1;
-	}
-}
-
-@keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
-
-	to {
-		opacity: 1;
-	}
-}
-
-body, img {
-	-webkit-animation: fadeIn ease-in 0.5s;
-	-moz-animation: fadeIn ease-in 0.5s;
-	animation: fadeIn ease-in 0.5s;
-	-webkit-animation-duration: 0.5s;
-	-moz-animation-duration: 0.5s;
-	animation-duration: 0.5s;
 }
