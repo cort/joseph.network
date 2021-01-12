@@ -120,7 +120,7 @@ a:hover {
 
 	background-image: -webkit-linear-gradient(#bd94ff 100%);
 	background-image: linear-gradient(#bd94ff 100%);
-	background-repeat: repeat-y;
+	background-repeat: repeat-x;
 	background-size: 0% 0em;
 	background-position: 0 100%;
 	-webkit-transition: 300ms ease;
