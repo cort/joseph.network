@@ -12,6 +12,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/project/project.css">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <p class="nav"><a class="name" href="https://josephcortez.co">Joseph Cortez</a> / COVID-19 Resources</p>
@@ -19,20 +21,20 @@
 <body>
     <div class="div-wrapper">
         <div class="div">
-            <h1 class="fade1">COVID-19 Resources</h1>
+            <h1 data-aos="fade-down">COVID-19 Resources</h1>
 
-            <a href="https://covid19resources.co"><img src="/img/covidproject1.gif" class="gif fade2"></img></a><br><br>
+            <a href="https://covid19resources.co"><img src="/img/covidproject1.gif" class="gif" data-aos="fade-up"></img></a><br><br>
 
-            <p class="fade2">This web design and development project was created to allow me to practice with fetching data from APIs using
+            <p data-aos="fade-up">This web design and development project was created to allow me to practice with fetching data from APIs using
                 JavaScript while also displaying relevant data that highlights a few statistics regarding COVID-19
                 around the world, updated live. The website also features a number of resources that are relevant to the pandemic,
                 ranging from official CDC websites to small business resources provided by the U.S. Small Business
                 Administration. Each card shows a peek and description of what the resource has to offer, complemented with an icon.
             </p><br>
 
-            <a href="https://covid19resources.co"><img src="/img/covidproject2.png" class="gif fade2"></img></a><br>
+            <a href="https://covid19resources.co"><img src="/img/covidproject2.png" class="gif" data-aos="fade-up"></img></a><br>
 
-            <p class="fade2">Along with an embedded interactive map from Esri, a live coronavirus-related news feed is
+            <p data-aos="fade-up">Along with an embedded interactive map from Esri, a live coronavirus-related news feed is
                 displayed on the right, fetching from a web search API per page refresh.
                 Additionally, a dark mode experience is triggered based on the user's system settings on their device
                 using JavaScript, shown above. The website is currently live at <a href="https://covid19resources.co"
@@ -44,6 +46,12 @@
                         </svg></a>
         </div>
     </div>
+
+  <script type="text/javascript">
+    AOS.init({
+      duration: 500.
+    });
+  </script>
 
 </body>
 <script src="js/darkmode.js"></script>
