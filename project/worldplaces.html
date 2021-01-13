@@ -12,6 +12,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/project/project.css">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <p class="nav"><a class="name" href="https://josephcortez.co">Joseph Cortez</a> / World Places</p>
@@ -19,16 +21,16 @@
 <body>
     <div class="div-wrapper">
         <div class="div">
-            <h1 class="fade1">World Places</h1>
+            <h1 data-aos="fade-down">World Places</h1>
 
-            <img src="/img/worldplaces.jpg" class="gif fade2"></img><br><br>
+            <img src="/img/worldplaces.jpg" class="gif" data-aos="fade-up"></img><br><br>
 
-            <p class="fade2">This project was an online travel brand with the complimentary Twitter account
+            <p data-aos="fade-up">This project was an online travel brand with the complimentary Twitter account
                 @WorldPlaces. The purpose of this account was to grow an engaging audience interested in travel content,
                 which was submitted by and shared to the account's 350K total followers.
             </p>
 
-            <p class="fade2">Starting this account was the first time I really felt like I was making a brand that people cared about.
+            <p data-aos="fade-up">Starting this account was the first time I really felt like I was making a brand that people cared about.
                 I found I learned a lot through simply giving exposure to travel content creators and I even worked on
                 releasing simple merchandise as a separate project with one of the World Places logos, though the
                 account was acquired in 2020 by a private media company before that could happen. Building the account
@@ -36,9 +38,9 @@
                 featured in photo and video tweets.
             </p><br>
 
-            <img src="/img/worldplacesss.png" class="image-ss fade2"></img><br><br>
+            <img src="/img/worldplacesss.png" class="image-ss" data-aos="fade-up"></img><br><br>
 
-            <p>Above is a screenshot of the Twitter account, showing the format of the tweets and the profile picture, one of the logos used.</p><br>
+            <p data-aos="fade-up">Above is a screenshot of the Twitter account, showing the format of the tweets and the profile picture, one of the logos used.</p><br>
     
             <p><a href="javascript:void(0)" onClick="javascript:history.go(-1)"><svg class="back fade2" width="25" height="25"
                         xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
@@ -46,6 +48,12 @@
                         </svg></a>
         </div>
     </div>
+
+  <script type="text/javascript">
+    AOS.init({
+      duration: 500.
+    });
+  </script>
 
 </body>
 <script src="js/darkmode.js"></script>
