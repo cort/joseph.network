@@ -234,36 +234,6 @@ a:hover {
 
 }
 
-@-webkit-keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-@-moz-keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
 /* tablet landscape */
 
 @media screen and (min-width:769px) and (max-width:1439px) {
@@ -295,22 +265,4 @@ a:hover {
     
 .back:hover {
     fill: #bd94ff;
-}
-
-.fade1 {
-    -webkit-animation: fadeIn ease-in 0.5s;
-    -moz-animation: fadeIn ease-in 0.5s;
-    animation: fadeIn ease-in 0.5s;
-    -webkit-animation-duration: 0.5s;
-    -moz-animation-duration: 0.5s;
-    animation-duration: 0.5s;
-}
-
-.fade2 {
-    -webkit-animation: fadeIn ease-in 0.5s;
-    -moz-animation: fadeIn ease-in 0.5s;
-    animation: fadeIn ease-in 0.5s;
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    animation-duration: 1s;
 }
