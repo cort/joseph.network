@@ -108,6 +108,7 @@ p {
 	margin: 2%;
 	float: right;
 	align-content: right;
+	padding-bottom: 50px;
 }
 
 canvas {
