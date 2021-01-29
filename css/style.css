@@ -18,8 +18,8 @@ body {
     left: 20px;
 	font-family: 'atkinson';
 	position: fixed;
-    font-size: 18px;
-    font-weight: normal;
+    	font-size: 18px;
+    	font-weight: normal;
 	line-height: 22px;
 	top: -5px;
 	z-index: 2;
@@ -291,8 +291,8 @@ span {
 
 @media screen and (max-width:1699px) {
 
-	.desc {
-		padding-left: 20%;
-		padding-right: 20%;
+	.desc-outer {
+		padding-left: 10%;
+		padding-right: 10%;
 	}
 }
