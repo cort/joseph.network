@@ -126,6 +126,7 @@ span {
 
 .to {
     background-image: -webkit-linear-gradient(#8A4FFF 0%, #8A4FFF 100%);
+    text-decoration: underline;
 }
 
 .email {
