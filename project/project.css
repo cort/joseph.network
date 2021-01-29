@@ -1,28 +1,14 @@
 @charset "UTF-8";
-@import url("https://use.typekit.net/jjx7czz.css");
+@import url("https://use.typekit.net/bzw2tem.css");
 
 @font-face {
     font-family: "atkinson";
     src: url("/Atkinson-Hyperlegible/Atkinson-Hyperlegible-Regular-102.ttf");
 }
 
-.nav {
-    font-family: 'atkinson';
-    position: fixed;
-    left: 20px;
-    top: -5px;
-    color: var(--box-color);
-    z-index: 2;
-    text-decoration: none;
-}
-
-.name {
-    color: var(--font-color);
-    text-decoration: none;
-}
-
-.name:hover {
-    color: var(--box-color);
+* {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 body {
@@ -40,25 +26,39 @@ h1 {
     color: var(--font-color);
 }
 
-h5 {
-    display: block;
-    font-family: 'atkinson';
+.nav {
+    left: 20px;
+	font-family: 'atkinson';
+	position: fixed;
     font-size: 18px;
     font-weight: normal;
-    line-height: 20px;
-    text-align: left;
-    padding-left: 30px;
+	line-height: 22px;
+	top: -5px;
+	z-index: 2;
+	color: var(--box-color);
+	text-decoration: none;
+}
+
+.name {
     color: var(--font-color);
-    padding-top: 0px;
+    text-decoration: none;
+}
+
+.name:hover {
+    color: var(--box-color);
 }
 
 p {
     display: block;
     font-family: 'atkinson';
-    font-size: 18px;
+    font-size: 22px;
     font-weight: normal;
-    line-height: 22px;
+    line-height: 26px;
     color: var(--font-color);
+}
+
+.p {
+    font-family: 'aktiv-grotesk';
 }
 
 .back {
@@ -70,7 +70,8 @@ p {
 
 .back:hover {
     text-decoration: none;
-    stroke: 1.4;
+    stroke: 1.5;
+    fill: #8A4FFF;
 }
 
 :root {
@@ -87,39 +88,23 @@ p {
     }
 }
 
-::-moz-selection {
-    color: none;
-    background-color: none;
-}
-
-::selection {
-    color: none;
-    background-color: none;
-}
-
 ::-webkit-scrollbar {
     display: none;
 }
 
-a {
-    color: var(--font-color);
-}
-
-a:hover {
-    background-position: 0 100%;
-    background-size: auto 8px;
-    background-repeat: repeat-x;
-    text-decoration: none;
-    color: var(--font-color);
+.links {
+    margin-top: 5%;
+	display: block;
+	text-align: center;
+    width: 100vw;
+    z-index: 2;
 }
 
 .link {
-	text-decoration: underline;
+    font-family: 'atkinson';
+	text-decoration: none;
 	color: var(--font-color);
 	padding-left: 0px;
-
-	background-image: -webkit-linear-gradient(#bd94ff 100%);
-	background-image: linear-gradient(#bd94ff 100%);
 	background-repeat: repeat-x;
 	background-size: 0% 0em;
 	background-position: 0 100%;
@@ -129,17 +114,42 @@ a:hover {
 }
 
 .link:hover {
-    color: var(--font-color);
-    background-image: -webkit-linear-gradient(#fd4545 0%, #fd4545 100%);
+	color: var(--font-color);
 	text-decoration: none;
 	background-size: 100% 1em;
+}
+
+span {
+	font-family: 'bilo';
+	font-weight: 500;
+}
+
+.to {
+    background-image: -webkit-linear-gradient(#8A4FFF 0%, #8A4FFF 100%);
+}
+
+.email {
+	background-image: -webkit-linear-gradient(#d73a49 0%, #d73a49 100%);
+}
+
+.github {
+	background-image: -webkit-linear-gradient(#6f42c1 0%, #6f42c1 100%);
+}
+
+.linkedin {
+	background-image: -webkit-linear-gradient(#2867B2 0%, #2867B2 100%);
+}
+
+.email:hover,
+.github:hover,
+.linkedin:hover {
+	color: var(--bg-color);
 }
 
 .div {
     display: block;
     text-align: left;
     padding-top: 1vh;
-    padding-bottom: 2vh;
     width: 50%;
     margin: auto;
 }
@@ -173,8 +183,6 @@ a:hover {
     margin-right: auto;
     border-radius: 10px;
 }
-
-/* mobile */
 
 @media screen and (max-width: 767px) {
 
@@ -234,8 +242,6 @@ a:hover {
 
 }
 
-/* tablet landscape */
-
 @media screen and (min-width:769px) and (max-width:1439px) {
     
     .back {
@@ -245,8 +251,6 @@ a:hover {
         z-index: 2;
         }      
 }
-
-/* wide */
 
 @media screen and (min-width:1440px) {
     
@@ -261,8 +265,4 @@ a:hover {
         bottom: 20px;
         z-index: 2;
     }   
-}
-    
-.back:hover {
-    fill: #bd94ff;
 }
