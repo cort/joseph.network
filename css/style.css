@@ -288,3 +288,11 @@ span {
 		padding-right: 10%;
 	}
 }
+
+@media screen and (max-width:1699px) {
+
+	.desc {
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+}
