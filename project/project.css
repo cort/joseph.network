@@ -186,6 +186,10 @@ span {
 
 @media screen and (max-width: 767px) {
 
+    span {
+	display: none;
+    }
+	
     * {
     max-width: 95vw;
     }
@@ -244,6 +248,10 @@ span {
 
 @media screen and (min-width:769px) and (max-width:1439px) {
     
+    span {
+	display: none;
+    }
+	
     .back {
         position: fixed;
         left: 20px;
