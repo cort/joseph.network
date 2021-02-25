@@ -120,7 +120,7 @@ p {
 }
 
 .link:hover {
-    color: var(--font-color);
+    color: #fefefe;
     text-decoration: none;
     background-size: 100% 1em;
 }
@@ -128,12 +128,6 @@ p {
 span {
     font-family: 'bilo';
     font-weight: 500;
-}
-
-.email:hover,
-.github:hover,
-.linkedin:hover {
-	color: #fefefe;
 }
 
 .to {
