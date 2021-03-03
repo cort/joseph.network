@@ -1,9 +1,15 @@
 @charset "UTF-8";
-@import url("https://use.typekit.net/bzw2tem.css");
+@import url("https://use.typekit.net/ttt1zja.css");
 
 @font-face {
-    font-family: "atkinson";
-    src: url("/Atkinson-Hyperlegible/Atkinson-Hyperlegible-Regular-102.ttf");
+    font-family: "elgoc";
+    src: url("/fonts/Elgoc-Regular");
+}
+
+h2,
+h3,
+p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 * {
@@ -17,48 +23,46 @@ body {
 
 h1 {
     display: block;
-    font-family: 'stolzl';
-    font-size: 3em;
+    font-family: 'elgoc';
+    font-size: 4em;
     font-weight: 500;
     line-height: 70px;
     text-transform: none;
-    margin-bottom: 32px;
+    padding-top: 5%;
+    margin-bottom: 10px;
     color: var(--font-color);
 }
 
 .nav {
-    left: 20px;
-    font-family: 'atkinson';
+    left: 5%;
     position: fixed;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: normal;
     line-height: 22px;
-    top: -5px;
+    top: 1%;
     z-index: 2;
-    color: var(--box-color);
+    color: var(--name-color);
     text-decoration: none;
 }
 
-.name {
+.name2 {
     color: var(--font-color);
     text-decoration: none;
 }
 
-.name:hover {
-    color: var(--box-color);
+.name2:hover {
+    color: var(--name-color);
 }
 
 p {
     display: block;
-    font-family: 'atkinson';
-    font-size: 22px;
+    font-size: 20px;
     font-weight: normal;
     line-height: 26px;
     color: var(--font-color);
 }
 
 .p {
-    font-family: 'aktiv-grotesk';
     line-height: 28px;
 }
 
@@ -82,15 +86,15 @@ p {
 
 :root {
     --font-color: #0f0f0f;
-    --bg-color: #fefefe;
-    --box-color: #888888;
+    --bg-color: #D9D7DD;
+    --name-color: #666A86;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
         --font-color: #fefefe;
-        --bg-color: #0e0e0e;
-        --box-color: #454545;
+        --bg-color: #1C1D22;
+        --name-color: #5C6270;
     }
 }
 
@@ -99,15 +103,18 @@ p {
 }
 
 .links {
-    margin-top: 5%;
-    display: block;
-    text-align: center;
-    width: 100vw;
+    right: 5%;
+    position: fixed;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 22px;
+    top: 1%;
     z-index: 2;
+    color: var(--font-color);
+    text-decoration: none;
 }
 
 .link {
-    font-family: 'atkinson';
     text-decoration: none;
     color: var(--font-color);
     padding-left: 0px;
@@ -125,34 +132,28 @@ p {
     background-size: 100% 1em;
 }
 
-span {
-    font-family: 'bilo';
-    font-weight: 500;
-}
-
 .to {
     text-decoration: underline;
 }
 
 .to,
 .email {
-    background-image: -webkit-linear-gradient(blue 0%, blue 100%);
+    background-image: -webkit-linear-gradient(var(--name-color) 0%, var(--name-color) 100%);
 }
 
 .github {
-    background-image: -webkit-linear-gradient(blue 0%, blue 100%);
+    background-image: -webkit-linear-gradient(var(--name-color) 0%, var(--name-color) 100%);
     /* #6f42c1 */
 }
 
 .linkedin {
-    background-image: -webkit-linear-gradient(blue 0%, blue 100%);
+    background-image: -webkit-linear-gradient(var(--name-color) 0%, var(--name-color) 100%);
     /* #2867B2 */
 }
 
 .div {
     display: block;
     text-align: left;
-    padding-top: 1vh;
     width: 50%;
     margin: auto;
 }
@@ -160,7 +161,7 @@ span {
 .gif {
     left: 0px;
     width: 50vw;
-    border-radius: 10px;
+    border-radius: 7.5px;
 }
 
 .image {
@@ -168,7 +169,7 @@ span {
     height: 43vh;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
+    border-radius: 7.5px;
 }
 
 .image-ss {
@@ -176,7 +177,7 @@ span {
     height: 43vh;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
+    border-radius: 7.5px;
 }
 
 .image-fullwidth {
@@ -184,7 +185,7 @@ span {
     width: 50vw;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
+    border-radius: 7.5px;
 }
 
 @media screen and (max-width: 767px) {
@@ -200,16 +201,20 @@ span {
 
     body {
         margin: 0;
+        width: 90vw;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .nav {
-        position: absolute;
+        position: relative;
+        left: 0%;
     }
 
     h1 {
-        padding-top: 15%;
         font-size: 40px;
         line-height: 44px;
+        padding-bottom: 2.5%;
     }
 
     h2 {
@@ -218,7 +223,12 @@ span {
     }
 
     p {
-        width: 100%;
+        width: 90vw;
+    }
+
+    .p {
+        font-size: 18px;
+        line-height: 24px;
     }
 
     .div {
@@ -228,7 +238,7 @@ span {
     }
 
     .gif {
-        width: 95vw;
+        width: 90vw;
         margin-left: auto;
         margin-right: auto;
     }
@@ -243,7 +253,7 @@ span {
     }
 
     .image-ss {
-        display: inline-block;
+        display: block;
         margin-left: auto;
         margin-right: auto;
     }
@@ -259,8 +269,8 @@ span {
 
     .back {
         position: fixed;
-        left: 20px;
-        bottom: 20px;
+        left: 5%;
+        bottom: 3%;
         z-index: 2;
     }
 }
@@ -268,14 +278,13 @@ span {
 @media screen and (min-width:1440px) {
 
     h1 {
-        font-size: 60px;
         line-height: 80px;
     }
 
     .back {
         position: fixed;
-        left: 20px;
-        bottom: 20px;
+        left: 5%;
+        bottom: 3%;
         z-index: 2;
     }
 }
