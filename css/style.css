@@ -232,6 +232,44 @@ a {
 		width: 90vw;
 		height: 400px;
 	}
+	
+	@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.links {
+    -webkit-animation: fadeIn ease-in 0.5s;
+    -moz-animation: fadeIn ease-in 0.5s;
+    animation: fadeIn ease-in 0.5s;
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    animation-duration: 0.5s;
 }
 
 @media screen and (min-width:589px) and (max-width:999px) {
