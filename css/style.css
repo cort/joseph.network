@@ -1,27 +1,43 @@
 @charset "UTF-8";
-@import url("https://use.typekit.net/bzw2tem.css");
+@import url("https://use.typekit.net/ttt1zja.css");
 
 @font-face {
-	font-family: "atkinson";
-	src: url("/Atkinson-Hyperlegible/Atkinson-Hyperlegible-Regular-102.ttf");
+	font-family: "elgoc";
+	src: url("/fonts/Elgoc-Regular");
+}
+
+h2,
+h3,
+p {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 html,
 body {
 	background-color: var(--bg-color);
-	position: relative;
 	width: 100vw;
 	margin: 0;
 }
 
 .nav {
-	left: 20px;
-	font-family: 'atkinson';
+	left: 5%;
 	position: fixed;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: normal;
 	line-height: 22px;
-	top: -5px;
+	top: 1%;
+	z-index: 2;
+	color: var(--font-color);
+	text-decoration: none;
+}
+
+.links {
+	right: 5%;
+	position: fixed;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 22px;
+	top: 1%;
 	z-index: 2;
 	color: var(--font-color);
 	text-decoration: none;
@@ -36,43 +52,21 @@ body {
 	color: var(--name-color);
 }
 
-.letters {
-	font-family: 'aktiv-grotesk';
-	display: inline-block;
-	color: var(--font-color);
-	perspective: 100px;
-	letter-spacing: -0.5px;
-  }
-
-.c, .e, .g {
-	margin-left: -8px;
-}
-
-svg {
-	margin-top: -1%;
-	margin-left: -2%;
-	stroke: var(--name-color);
-}
-
-.desc-outer {
-	padding-top: 40px;
-	padding-bottom: 5%;
-}
-
 h1 {
-	font-size: 2.5em;
-	font-family: 'aktiv-grotesk';
+	font-family: 'elgoc';
+	font-size: 3.2em;
+	line-height: 1em;
 	font-weight: 400;
-	font-style: normal;
-	line-height: 40px;
-	letter-spacing: -0.5px;
 	color: var(--font-color);
-	text-align: left;
-	z-index: 1;
+	position: relative;
+}
+
+.selected {
+	color: var(--name-color);
+	padding-left: 5%;
 }
 
 h2 {
-	font-family: 'atkinson';
 	font-size: 22px;
 	font-weight: 500;
 	line-height: 22px;
@@ -81,28 +75,23 @@ h2 {
 	color: var(--font-color);
 	margin-top: 30px;
 	margin-bottom: -10px;
-	margin-left: 4%;
-	margin-right: 4%;
+	margin-left: 3%;
+	margin-right: 3%;
 }
 
 h3 {
-	font-family: 'aktiv-grotesk';
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 20px;
-	letter-spacing: 0.5px;
-	text-align: left;
 	color: var(--name-color);
 	margin-top: 15px;
-	margin-left: 4%;
-	margin-right: 4%;
+	margin-left: 3%;
+	margin-right: 3%;
 }
 
 p {
 	display: block;
-	font-family: 'atkinson';
-	font-size: 22px;
-	font-weight: normal;
+	font-weight: 400;
 	line-height: 26px;
 	color: var(--font-color);
 }
@@ -117,12 +106,9 @@ p {
 }
 
 canvas {
-	border-radius: 10px;
+	border-radius: 7.5px;
 }
 
-.header {
-	text-decoration: none;
-}
 
 .article {
 	float: left;
@@ -138,21 +124,17 @@ canvas {
 	clear: both;
 }
 
-.arrow {
-	font-family: "bilo";
-}
-
 :root {
 	--font-color: #0f0f0f;
-	--bg-color: #fefefe;
-	--name-color: #888888;
+	--bg-color: #D9D7DD;
+	--name-color: #666A86;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
 		--font-color: #fefefe;
-		--bg-color: #0e0e0e;
-		--name-color: #454545;
+		--bg-color: #1C1D22;
+		--name-color: #5C6270;
 	}
 }
 
@@ -163,13 +145,6 @@ canvas {
 a {
 	color: var(--font-color);
 	text-decoration: none;
-}
-
-.links {
-	margin-top: 10%;
-	display: inline-block;
-	text-align: center;
-	width: 100vw;
 }
 
 .link {
@@ -197,45 +172,34 @@ a {
 }
 
 .email {
-	background-image: -webkit-linear-gradient(blue 0%, blue 100%);
+	background-image: -webkit-linear-gradient(var(--name-color) 0%, var(--name-color) 100%);
 }
 
 .github {
-	background-image: -webkit-linear-gradient(blue 0%, blue 100%);
+	background-image: -webkit-linear-gradient(var(--name-color) 0%, var(--name-color) 100%);
 	/* #6f42c1 */
 }
 
 .linkedin {
-	background-image: -webkit-linear-gradient(blue 0%, blue 100%);
+	background-image: -webkit-linear-gradient(var(--name-color) 0%, var(--name-color) 100%);
 	/* #2867B2 */
 }
 
 @media screen and (max-width:588px) {
 
-	.letters, .h {
-		display: inline;
-	}
-
-	.e, .g {
-		margin-left: -4px;
-	}
-
-	.c {
-		margin-left: -6px;
-	}
-
-	span {
+	.links {
 		display: none;
 	}
 
 	.nav {
-		position: absolute;
+		position: relative;
+		width: 50vw;
 	}
 
 	h1 {
-		padding-top: 5%;
-		font-size: 26px;
-		line-height: 29px;
+		padding-top: 10%;
+		font-size: 40px;
+		line-height: 40px;
 		margin-bottom: 20px;
 	}
 
@@ -253,9 +217,11 @@ a {
 		margin-right: 0%;
 	}
 
-	.desc-outer {
-		padding-left: 4%;
-		padding-right: 4%;
+	.desc,
+	.selected,
+	.links {
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 
 	.projects {
@@ -276,48 +242,41 @@ a {
 
 @media screen and (min-width:589px) and (max-width:999px) {
 
-	.letters {
-		display: inline;
-	}
-
-	span {
-		display: none;
-	}
-
-	.desc-outer {
-		padding-left: 10%;
-		padding-right: 10%;
+	.desc {
+		padding-top: 8%;
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 }
 
 @media screen and (min-width:1000px) and (max-width:1299px) {
 
-	.letters {
-		display: inline;
-	}
-
-	.desc-outer {
-		padding-top: 10%;
-		padding-left: 20%;
+	.desc {
+		padding-top: 8%;
+		padding-left: 5%;
 		padding-right: 20%;
-		padding-bottom: 10%;
+		padding-bottom: 2%;
 	}
 }
 
 @media screen and (min-width:1300px) {
 
-	.desc-outer {
-		padding-top: 10%;
-		padding-left: 20%;
-		padding-right: 20%;
-		padding-bottom: 10%;
+	.desc {
+		padding-top: 8%;
+		padding-left: 5%;
+		padding-right: 40%;
+		padding-bottom: 2%;
 	}
 }
 
 @media screen and (min-width:1600px) {
 
-	.desc-outer {
-		padding-left: 26%;
-		padding-right: 26%;
+	h1 {
+		font-size: 4.5em;
+	}
+
+	.desc {
+		padding-left: 5%;
+		padding-right: 30%;
 	}
 }
