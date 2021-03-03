@@ -183,7 +183,8 @@ a {
 @media screen and (max-width:588px) {
 
 	.links {
-		display: none;
+		position: relative;
+		margin-left: 5%;
 	}
 
 	.nav {
