@@ -6,9 +6,7 @@
     src: url("/fonts/Elgoc-Regular");
 }
 
-h2,
-h3,
-p {
+h2, h3, p {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
@@ -143,12 +141,10 @@ p {
 
 .github {
     background-image: -webkit-linear-gradient(var(--name-color) 0%, var(--name-color) 100%);
-    /* #6f42c1 */
 }
 
 .linkedin {
     background-image: -webkit-linear-gradient(var(--name-color) 0%, var(--name-color) 100%);
-    /* #2867B2 */
 }
 
 .div {
@@ -190,8 +186,7 @@ p {
 
 @media screen and (max-width: 767px) {
 
-    span,
-    .links {
+    span, .links {
         display: none;
     }
 
@@ -243,9 +238,7 @@ p {
         margin-right: auto;
     }
 
-    .image,
-    .image-ss,
-    .image-fullwidth {
+    .image, .image-ss, .image-fullwidth {
         height: 43vh;
         width: auto;
         margin-left: auto;
@@ -262,8 +255,7 @@ p {
 
 @media screen and (min-width:769px) and (max-width:1439px) {
 
-    span,
-    .links {
+    span, .links {
         display: none;
     }
 
