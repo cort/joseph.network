@@ -9,7 +9,7 @@ var hoverDistort = new hoverEffect({
 var hoverDistort = new hoverEffect({
     parent: document.querySelector('.worldplaces'),
     intensity: 0.5,
-    image1: 'img/worldplacesCover.jpg',
+    image1: 'img/worldplacesCover.png',
     image2: 'img/worldplaces1.jpg',
     displacementImage: 'js/4.png'
 });
